@@ -90,6 +90,7 @@ public class DataPlotter : MonoBehaviour
         }
     }
     
+    //Find the max value of a given column of the pointList dictionary
     private float FindMaxValue(string columnName)
     {
         //set initial value to first value in column
@@ -106,6 +107,7 @@ public class DataPlotter : MonoBehaviour
         return maxValue;
     }
     
+    //Find the min value of a given column of the pointList dictionary
     private float FindMinValue(string columnName)
     {
         //set initial value to first value in column
