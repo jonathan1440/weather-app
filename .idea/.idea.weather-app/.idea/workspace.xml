@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b2fb33e-3de9-4f33-b70b-4ee807dd70a9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataPlotter.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/ScatterPlotter.cs" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataPlotter.cs.meta" afterPath="$PROJECT_DIR$/Assets/Scripts/ScatterPlotter.cs.meta" />
-    </list>
+    <list default="true" id="8b2fb33e-3de9-4f33-b70b-4ee807dd70a9" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +14,8 @@
       <file leaf-file-name="ScatterPlotter.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScatterPlotter.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="615">
+              <caret line="114" column="4" lean-forward="true" selection-start-line="114" selection-start-column="4" selection-end-line="114" selection-end-column="4" />
               <folding>
                 <marker date="1515440056803" expanded="false" signature="6:121" ph="..." />
                 <marker date="1515440056803" expanded="true" signature="167:4655" ph="{...}" />
@@ -124,12 +120,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515432630904</updated>
-      <workItem from="1515432651036" duration="5644000" />
+      <workItem from="1515432651036" duration="6992000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5644000" />
+    <option name="totallyTimeSpent" value="6992000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -180,8 +176,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScatterPlotter.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        <state relative-caret-position="615">
+          <caret line="114" column="4" lean-forward="true" selection-start-line="114" selection-start-column="4" selection-end-line="114" selection-end-column="4" />
           <folding>
             <marker date="1515440056803" expanded="false" signature="6:121" ph="..." />
             <marker date="1515440056803" expanded="true" signature="167:4655" ph="{...}" />
