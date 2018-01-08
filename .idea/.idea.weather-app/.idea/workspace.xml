@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b2fb33e-3de9-4f33-b70b-4ee807dd70a9" name="Default" comment="" />
+    <list default="true" id="8b2fb33e-3de9-4f33-b70b-4ee807dd70a9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/dataview.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/dataview.unity" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataPlotter.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/DataPlotter.cs" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,17 +17,17 @@
       <file leaf-file-name="DataPlotter.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/DataPlotter.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="96" column="49" lean-forward="false" selection-start-line="96" selection-start-column="49" selection-end-line="96" selection-end-column="49" />
+            <state relative-caret-position="477">
+              <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
               <folding>
-                <marker date="1515436544841" expanded="true" signature="6:121" ph="..." />
-                <marker date="1515436544841" expanded="true" signature="164:4571" ph="{...}" />
-                <marker date="1515436544841" expanded="true" signature="938:3361" ph="{...}" />
-                <marker date="1515436544841" expanded="true" signature="2099:3355" ph="{...}" />
-                <marker date="1515436544841" expanded="true" signature="3487:3981" ph="{...}" />
-                <marker date="1515436544841" expanded="true" signature="3753:3915" ph="{...}" />
-                <marker date="1515436544841" expanded="true" signature="4107:4569" ph="{...}" />
-                <marker date="1515436544841" expanded="true" signature="4374:4536" ph="{...}" />
+                <marker date="1515438953151" expanded="true" signature="6:121" ph="..." />
+                <marker date="1515438953151" expanded="true" signature="164:4687" ph="{...}" />
+                <marker date="1515438953151" expanded="true" signature="966:3477" ph="{...}" />
+                <marker date="1515438953151" expanded="true" signature="2127:3471" ph="{...}" />
+                <marker date="1515438953151" expanded="true" signature="3603:4097" ph="{...}" />
+                <marker date="1515438953151" expanded="true" signature="3869:4031" ph="{...}" />
+                <marker date="1515438953151" expanded="true" signature="4223:4685" ph="{...}" />
+                <marker date="1515438953151" expanded="true" signature="4490:4652" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -119,12 +122,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515432630904</updated>
-      <workItem from="1515432651036" duration="3844000" />
+      <workItem from="1515432651036" duration="4818000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3844000" />
+    <option name="totallyTimeSpent" value="4818000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -175,17 +178,17 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/DataPlotter.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="96" column="49" lean-forward="false" selection-start-line="96" selection-start-column="49" selection-end-line="96" selection-end-column="49" />
+        <state relative-caret-position="477">
+          <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
           <folding>
-            <marker date="1515436544841" expanded="true" signature="6:121" ph="..." />
-            <marker date="1515436544841" expanded="true" signature="164:4571" ph="{...}" />
-            <marker date="1515436544841" expanded="true" signature="938:3361" ph="{...}" />
-            <marker date="1515436544841" expanded="true" signature="2099:3355" ph="{...}" />
-            <marker date="1515436544841" expanded="true" signature="3487:3981" ph="{...}" />
-            <marker date="1515436544841" expanded="true" signature="3753:3915" ph="{...}" />
-            <marker date="1515436544841" expanded="true" signature="4107:4569" ph="{...}" />
-            <marker date="1515436544841" expanded="true" signature="4374:4536" ph="{...}" />
+            <marker date="1515438953151" expanded="true" signature="6:121" ph="..." />
+            <marker date="1515438953151" expanded="true" signature="164:4687" ph="{...}" />
+            <marker date="1515438953151" expanded="true" signature="966:3477" ph="{...}" />
+            <marker date="1515438953151" expanded="true" signature="2127:3471" ph="{...}" />
+            <marker date="1515438953151" expanded="true" signature="3603:4097" ph="{...}" />
+            <marker date="1515438953151" expanded="true" signature="3869:4031" ph="{...}" />
+            <marker date="1515438953151" expanded="true" signature="4223:4685" ph="{...}" />
+            <marker date="1515438953151" expanded="true" signature="4490:4652" ph="{...}" />
           </folding>
         </state>
       </provider>

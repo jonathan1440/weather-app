@@ -30,6 +30,8 @@ public class DataPlotter : MonoBehaviour
     
     // Scale of graph, aka how far in space the maximum points go
     public float plotScale = 10;
+
+    public float zPos = 1;
  
     // Use this for initialization
     void Start()
@@ -71,7 +73,7 @@ public class DataPlotter : MonoBehaviour
             // Get value in poinList at ith "row", in "column" Name, normalize
             float x = (System.Convert.ToSingle(pointList[i][xName]) - xMin) / (xMax - xMin);
             float y = (System.Convert.ToSingle(pointList[i][yName]) - yMin) / (yMax - yMin);
-            float z = (System.Convert.ToSingle(pointList[i][zName]) - zMin) / (zMax - zMin);
+            float z = zPos + (System.Convert.ToSingle(pointList[i][zName]) - zMin) / (zMax - zMin);
  
             // Instantiate as gameobject variable so that it can be manipulated within loop
             GameObject dataPoint = Instantiate(
@@ -90,6 +92,9 @@ public class DataPlotter : MonoBehaviour
             
             // Gets material color and sets it to a new RGBA color we define
             dataPoint.GetComponent<Renderer>().material.color = new Color(x,y,z, 1.0f);
+            
+            //assign all data for databall to databall
+            
         }
     }
     
