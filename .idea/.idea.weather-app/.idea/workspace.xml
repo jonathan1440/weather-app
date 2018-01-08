@@ -16,13 +16,17 @@
       <file leaf-file-name="DataPlotter.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/DataPlotter.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-30">
-              <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            <state relative-caret-position="623">
+              <caret line="79" column="41" lean-forward="true" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
               <folding>
-                <marker date="1515435416957" expanded="true" signature="6:121" ph="..." />
-                <marker date="1515435416957" expanded="true" signature="164:2654" ph="{...}" />
-                <marker date="1515435416957" expanded="true" signature="834:2652" ph="{...}" />
-                <marker date="1515435416957" expanded="true" signature="1658:2646" ph="{...}" />
+                <marker date="1515436059826" expanded="true" signature="6:121" ph="..." />
+                <marker date="1515436059826" expanded="true" signature="164:4259" ph="{...}" />
+                <marker date="1515436059826" expanded="true" signature="938:3191" ph="{...}" />
+                <marker date="1515436059826" expanded="true" signature="2099:3185" ph="{...}" />
+                <marker date="1515436059826" expanded="true" signature="3246:3740" ph="{...}" />
+                <marker date="1515436059826" expanded="true" signature="3512:3674" ph="{...}" />
+                <marker date="1515436059826" expanded="true" signature="3795:4257" ph="{...}" />
+                <marker date="1515436059826" expanded="true" signature="4062:4224" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -117,12 +121,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515432630904</updated>
-      <workItem from="1515432651036" duration="2505000" />
+      <workItem from="1515432651036" duration="3026000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2505000" />
+    <option name="totallyTimeSpent" value="3026000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -173,13 +177,17 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/DataPlotter.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        <state relative-caret-position="623">
+          <caret line="79" column="41" lean-forward="true" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
           <folding>
-            <marker date="1515435416957" expanded="true" signature="6:121" ph="..." />
-            <marker date="1515435416957" expanded="true" signature="164:2654" ph="{...}" />
-            <marker date="1515435416957" expanded="true" signature="834:2652" ph="{...}" />
-            <marker date="1515435416957" expanded="true" signature="1658:2646" ph="{...}" />
+            <marker date="1515436059826" expanded="true" signature="6:121" ph="..." />
+            <marker date="1515436059826" expanded="true" signature="164:4259" ph="{...}" />
+            <marker date="1515436059826" expanded="true" signature="938:3191" ph="{...}" />
+            <marker date="1515436059826" expanded="true" signature="2099:3185" ph="{...}" />
+            <marker date="1515436059826" expanded="true" signature="3246:3740" ph="{...}" />
+            <marker date="1515436059826" expanded="true" signature="3512:3674" ph="{...}" />
+            <marker date="1515436059826" expanded="true" signature="3795:4257" ph="{...}" />
+            <marker date="1515436059826" expanded="true" signature="4062:4224" ph="{...}" />
           </folding>
         </state>
       </provider>
