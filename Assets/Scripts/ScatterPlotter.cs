@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using JetBrains.Annotations;
 using UnityEngine;
  
-public class DataPlotter : MonoBehaviour
+public class ScatterPlotter : MonoBehaviour
 {
     // Name of the input file, no extension
     public string inputfile;
@@ -30,8 +30,6 @@ public class DataPlotter : MonoBehaviour
     
     // Scale of graph, aka how far in space the maximum points go
     public float plotScale = 10;
-
-    public float zPos = 1;
  
     // Use this for initialization
     void Start()
@@ -73,7 +71,7 @@ public class DataPlotter : MonoBehaviour
             // Get value in poinList at ith "row", in "column" Name, normalize
             float x = (System.Convert.ToSingle(pointList[i][xName]) - xMin) / (xMax - xMin);
             float y = (System.Convert.ToSingle(pointList[i][yName]) - yMin) / (yMax - yMin);
-            float z = zPos + (System.Convert.ToSingle(pointList[i][zName]) - zMin) / (zMax - zMin);
+            float z = (System.Convert.ToSingle(pointList[i][zName]) - zMin) / (zMax - zMin);
  
             // Instantiate as gameobject variable so that it can be manipulated within loop
             GameObject dataPoint = Instantiate(
