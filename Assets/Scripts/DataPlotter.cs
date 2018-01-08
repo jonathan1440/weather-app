@@ -86,7 +86,10 @@ public class DataPlotter : MonoBehaviour
             string dataPointName = pointList[i][xName] + " " + pointList[i][yName] + " " + pointList[i][zName];
  
             // Assigns name to the prefab
-            dataPoint.transform.name = dataPointName;         
+            dataPoint.transform.name = dataPointName; 
+            
+            // Gets material color and sets it to a new RGBA color we define
+            dataPoint.GetComponent<Renderer>().material.color = new Color(x,y,z, 1.0f);
         }
     }
     
