@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b2fb33e-3de9-4f33-b70b-4ee807dd70a9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.weather-app/.idea/contentModel.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.weather-app/.idea/indexLayout.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.weather-app/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.weather-app/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.weather-app/riderModule.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.weather-app/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.weather-app/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataPlotter.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/DataPlotter.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,13 +17,13 @@
       <file leaf-file-name="DataPlotter.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/DataPlotter.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="23" column="60" lean-forward="false" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+            <state relative-caret-position="593">
+              <caret line="64" column="17" lean-forward="false" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
               <folding>
-                <marker date="1515433310308" expanded="true" signature="6:107" ph="..." />
-                <marker date="1515433310308" expanded="true" signature="150:2777" ph="{...}" />
-                <marker date="1515433310308" expanded="true" signature="820:2775" ph="{...}" />
-                <marker date="1515433310308" expanded="true" signature="1630:2769" ph="{...}" />
+                <marker date="1515434342685" expanded="true" signature="6:107" ph="..." />
+                <marker date="1515434342685" expanded="true" signature="150:2640" ph="{...}" />
+                <marker date="1515434342685" expanded="true" signature="820:2638" ph="{...}" />
+                <marker date="1515434342685" expanded="true" signature="1644:2632" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -122,12 +118,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515432630904</updated>
-      <workItem from="1515432651036" duration="1032000" />
+      <workItem from="1515432651036" duration="1707000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1032000" />
+    <option name="totallyTimeSpent" value="1707000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -178,13 +174,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/DataPlotter.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" column="60" lean-forward="false" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+        <state relative-caret-position="593">
+          <caret line="64" column="17" lean-forward="false" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
           <folding>
-            <marker date="1515433310308" expanded="true" signature="6:107" ph="..." />
-            <marker date="1515433310308" expanded="true" signature="150:2777" ph="{...}" />
-            <marker date="1515433310308" expanded="true" signature="820:2775" ph="{...}" />
-            <marker date="1515433310308" expanded="true" signature="1630:2769" ph="{...}" />
+            <marker date="1515434342685" expanded="true" signature="6:107" ph="..." />
+            <marker date="1515434342685" expanded="true" signature="150:2640" ph="{...}" />
+            <marker date="1515434342685" expanded="true" signature="820:2638" ph="{...}" />
+            <marker date="1515434342685" expanded="true" signature="1644:2632" ph="{...}" />
           </folding>
         </state>
       </provider>

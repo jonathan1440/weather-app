@@ -35,7 +35,7 @@ public class DataPlotter : MonoBehaviour
         pointList = CSVReader.Read(inputfile);
  
         //Log to console
-        Debug.Log(pointList);
+        Debug.Log("pointList: "+pointList);
  
         // Declare list of strings, fill with keys (column names)
         List<string> columnList = new List<string>(pointList[1].Keys);
@@ -58,9 +58,6 @@ public class DataPlotter : MonoBehaviour
             float x = System.Convert.ToSingle(pointList[i][xName]);
             float y = System.Convert.ToSingle(pointList[i][yName]);
             float z = System.Convert.ToSingle(pointList[i][zName]);
- 
-            //instantiate the prefab with coordinates defined above
-            Instantiate(PointPrefab, new Vector3(x, y, z), Quaternion.identity);
  
             // Instantiate as gameobject variable so that it can be manipulated within loop
             GameObject dataPoint = Instantiate(
