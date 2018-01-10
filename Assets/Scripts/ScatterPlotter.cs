@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
-using JetBrains.Annotations;
 using UnityEngine;
  
 public class ScatterPlotter : MonoBehaviour
@@ -29,7 +27,10 @@ public class ScatterPlotter : MonoBehaviour
     public GameObject PointHolder;
     
     // Scale of graph, aka how far in space the maximum points go
-    public float plotScale = 10;
+    public float PlotScale = 10;
+    
+    // Transparency of graph box
+    public float BoxAlpha = 0.9f;
  
     // Use this for initialization
     void Start()
@@ -64,36 +65,58 @@ public class ScatterPlotter : MonoBehaviour
         float xMin = FindMinValue(xName);
         float yMin = FindMinValue(yName);
         float zMin = FindMinValue(zName);
+        
+        //Get change in each axis
+        float[] axisDeltas = new float[3];
+        axisDeltas[0] = xMax - xMin;
+        axisDeltas[1] = yMax - yMin;
+        axisDeltas[2] = zMax - zMin;
+        
+        //Get biggest change
+        float maxDelta = axisDeltas[0];
+        foreach (float delta in axisDeltas)
+        {
+            if (Convert.ToSingle(delta) > maxDelta)
+            {
+                maxDelta = delta;
+            }
+        }
  
         //Loop through Pointlist
-        for (var i = 0; i < pointList.Count; i++)
+        foreach (var t in pointList)
         {
             // Get value in poinList at ith "row", in "column" Name, normalize
-            float x = (System.Convert.ToSingle(pointList[i][xName]) - xMin) / (xMax - xMin);
-            float y = (System.Convert.ToSingle(pointList[i][yName]) - yMin) / (yMax - yMin);
-            float z = (System.Convert.ToSingle(pointList[i][zName]) - zMin) / (zMax - zMin);
+            float x = (Convert.ToSingle(t[xName]) - xMin) / (xMax - xMin);
+            float y = (Convert.ToSingle(t[yName]) - yMin) / (yMax - yMin);
+            float z = (Convert.ToSingle(t[zName]) - zMin) / (zMax - zMin);
  
             // Instantiate as gameobject variable so that it can be manipulated within loop
             GameObject dataPoint = Instantiate(
-                    PointPrefab,
-                    new Vector3(x, y, z) * plotScale,
-                    Quaternion.identity);
+                PointPrefab,
+                new Vector3(x, y, z) * PlotScale,
+                Quaternion.identity);
  
             // Make child of PointHolder object, to keep points within container in hierarchy
             dataPoint.transform.parent = PointHolder.transform;
  
             // Assigns original values to dataPointName
-            string dataPointName = pointList[i][xName] + " " + pointList[i][yName] + " " + pointList[i][zName];
+            string dataPointName = t[xName] + " " + t[yName] + " " + t[zName];
  
             // Assigns name to the prefab
             dataPoint.transform.name = dataPointName; 
             
             // Gets material color and sets it to a new RGBA color we define
             dataPoint.GetComponent<Renderer>().material.color = new Color(x,y,z, 1.0f);
-            
-            //assign all data for databall to databall
-            
         }
+        
+        //create box to bound graph
+        GameObject box = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        
+        //attach box to Graph GameObject
+        box.transform.parent = transform;
+        
+        //Scale the box to completely surround the dataBalls as a cube
+        box.transform.localScale = new Vector3(maxDelta,maxDelta,maxDelta);
     }
     
     //Find the max value of a given column of the pointList dictionary
@@ -103,10 +126,10 @@ public class ScatterPlotter : MonoBehaviour
         float maxValue = Convert.ToSingle(pointList[0][columnName]);
  
         //Loop through Dictionary, overwrite existing maxValue if new value is larger
-        for (var i = 0; i < pointList.Count; i++)
+        foreach (var t in pointList)
         {
-            if (maxValue < Convert.ToSingle(pointList[i][columnName]))
-                maxValue = Convert.ToSingle(pointList[i][columnName]);
+            if (maxValue < Convert.ToSingle(t[columnName]))
+                maxValue = Convert.ToSingle(t[columnName]);
         }
  
         //Spit out the max value
@@ -120,10 +143,10 @@ public class ScatterPlotter : MonoBehaviour
         float minValue = Convert.ToSingle(pointList[0][columnName]);
  
         //Loop through Dictionary, overwrite existing minValue if new value is smaller
-        for (var i = 0; i < pointList.Count; i++)
+        foreach (var t in pointList)
         {
-            if (Convert.ToSingle(pointList[i][columnName]) < minValue)
-                minValue = Convert.ToSingle(pointList[i][columnName]);
+            if (Convert.ToSingle(t[columnName]) < minValue)
+                minValue = Convert.ToSingle(t[columnName]);
         }
  
         return minValue;
