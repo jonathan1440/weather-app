@@ -2,6 +2,23 @@
 
 The goal is to create a Unity web app showing weather data from my house for my senior project.
 
+Using:
+Python 3.6.2
+Anaconda
+JetBrains Rider 2017.1
+JetBrains PyCharm Community 2017.3.2
+Unity 2017.3 with support for:
+- MonoDevelop / Unity Debugger
+- Documentation
+- Standard Assets
+- Android Build
+- iOS Build
+- Linux build
+- Windows Store .NET Scripting Backend
+- Windows Store IL2CPP Scripting Backend
+- Vuforia Augmented REality Support
+- WebGL Build
+
 I used the following tutorial to start me off on creating a scatterplot.
 https://sites.psu.edu/bdssblog/2017/04/06/basic-data-visualization-in-unity-scatterplot-creation/
 
