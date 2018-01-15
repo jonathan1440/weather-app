@@ -2,12 +2,18 @@
 
 The goal is to create a Unity web app showing weather data from my house for my senior project.
 
-Using:
+**Using:**
+
 Python 3.6.2
+
 Anaconda
+
 JetBrains Rider 2017.1
+
 JetBrains PyCharm Community 2017.3.2
+
 Unity 2017.3 with support for:
+
 - MonoDevelop / Unity Debugger
 - Documentation
 - Standard Assets
