@@ -81,6 +81,9 @@ public class ScatterPlotter : MonoBehaviour
                 maxDelta = delta;
             }
         }
+        
+        //transform.localScale = new Vector3(maxDelta,maxDelta,maxDelta);
+        //transform.position = new Vector3(0, 0, maxDelta / 2);
  
         //Loop through Pointlist
         foreach (var t in pointList)
