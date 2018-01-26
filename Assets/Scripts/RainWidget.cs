@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityStandardAssets.Utility;
 
-public class IsItRaining : MonoBehaviour {
+public class RainWidget : MonoBehaviour {
 
 	//Name of input data file, no extension
 	public string inputfile;
@@ -23,11 +24,12 @@ public class IsItRaining : MonoBehaviour {
 	private bool isItCurrentlyRaining = false;
 	
 	//Set default raining/not raining messages
-	public string rainingMsg = "It is raining.";
+	public string rainingMsg = "It is raining";
 	public string notRainingMsg = "It is not raining.";
 
-	//get text component to edit
-	public Text displayMsg;
+	//for text components to edit
+	public Text isRainingTextMsg;
+	public Text rainDepthMsg;
 	
 	// Use this for initialization
 	private void Start ()
@@ -39,11 +41,9 @@ public class IsItRaining : MonoBehaviour {
 		//Since they are both floats, all decimals will be ignored
 		timeSinceRCIncrease = timeSinceRCIncrease / 15;
 	}
-	
-	// Update is called once per frame
-	private void Update ()
+
+	private void CheckIfRaining()
 	{
-		
 		//Check to see if its raining
 		//Get length of pointList aka data
 		var last = pointList.Count;
@@ -63,13 +63,32 @@ public class IsItRaining : MonoBehaviour {
 		//set message to be displayed
 		if (isItCurrentlyRaining)
 		{
-			displayMsg.text = rainingMsg;
+			isRainingTextMsg.text = rainingMsg;
 		}
 		else
 		{
-			displayMsg.text = notRainingMsg;
+			isRainingTextMsg.text = notRainingMsg;
 		}
+	}
+
+	private void GetRainDepth()
+	{
+		var last = pointList.Count;
+		float rainDepth = Convert.ToSingle(pointList[last-1]["rain counter"]) - Convert.ToSingle(pointList[0]["rain counter"]);
 		
+		//convert rain depth to inches
+		rainDepth *= rainCounterUnits;
+
+		rainDepthMsg.text = rainDepth.ToString() + " in";
+	}
+	
+	// Update is called once per frame
+	private void Update ()
+	{
 		
+		CheckIfRaining();
+
+		GetRainDepth();
+
 	}
 }

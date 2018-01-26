@@ -19,7 +19,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="CSVReader.cs" t="Include" />
-          <e p="IsItRaining.cs" t="Include" />
+          <e p="RainWidget.cs" t="Include" />
           <e p="ScatterPlotter.cs" t="Include" />
         </e>
         <e p="Standard Assets" t="Include">
