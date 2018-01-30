@@ -28,6 +28,8 @@ Unity 2017.3 with support for:
 I used the following tutorial to start me off on creating a scatterplot.
 https://sites.psu.edu/bdssblog/2017/04/06/basic-data-visualization-in-unity-scatterplot-creation/
 
+This unfinisehd repoistory is how I'm getting the weather data: https://github.com/jonathan1440/Get-Weather-Data
+
 To-do:
 1. Create graph prefab
    - box/mesh outline
