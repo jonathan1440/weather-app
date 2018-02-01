@@ -24,31 +24,45 @@ public class WindWidget : MonoBehaviour {
 		pointList = CSVReader.Read(inputfile);
 		
 		//set list of possible windspeeds
-		cardinalDirections.Add("N",new Vector2(0,1));
-		cardinalDirections.Add("NNE",new Vector2(0.5f,1));
-		cardinalDirections.Add("NE",new Vector2(1,1));
-		cardinalDirections.Add("ENE",new Vector2(1,0.5f));
-		cardinalDirections.Add("E",new Vector2(1,0));
-		cardinalDirections.Add("ESE",new Vector2(1,-0.5f));
-		cardinalDirections.Add("SE",new Vector2(1,-1));
-		cardinalDirections.Add("SSE",new Vector2(0.5f,-1));
-		cardinalDirections.Add("S",new Vector2(0,-1));
-		cardinalDirections.Add("SSW",new Vector2(-0.5f,-1));
-		cardinalDirections.Add("SW", new Vector2(-1, -1));
-		cardinalDirections.Add("WSW",new Vector2(-1,-0.5f));
-		cardinalDirections.Add("W",new Vector2(-1,0.5f));
-		cardinalDirections.Add("NW",new Vector2(-1,1));
-		cardinalDirections.Add("NWN",new Vector2(-0.5f,1));
+		cardinalDirections.Add("N",new Vector2(0,2));
+		cardinalDirections.Add("NNE",new Vector2(1,2));
+		cardinalDirections.Add("NE",new Vector2(2,2));
+		cardinalDirections.Add("ENE",new Vector2(2,1));
+		cardinalDirections.Add("E",new Vector2(2,0));
+		cardinalDirections.Add("ESE",new Vector2(2,-1));
+		cardinalDirections.Add("SE",new Vector2(2,-2));
+		cardinalDirections.Add("SSE",new Vector2(1,-2));
+		cardinalDirections.Add("S",new Vector2(0,-2));
+		cardinalDirections.Add("SSW",new Vector2(-1,-2));
+		cardinalDirections.Add("SW", new Vector2(-2,-2));
+		cardinalDirections.Add("WSW",new Vector2(-2,-1));
+		cardinalDirections.Add("W",new Vector2(-2,1));
+		cardinalDirections.Add("NW",new Vector2(-2,2));
+		cardinalDirections.Add("NWN",new Vector2(-1,2));
 	}
 
 	//get most recent wind speed recording from data and output it in the display
-	private void setWindWspeed()
+	private void setWindSpeed()
 	{
+		var last = pointList.Count;
+
+		windSpeedMsg.text = pointList[last]["wind speed"].ToString() + " mpph";
+	}
+	
+	//get average wind velocity
+	private void getAvgWVelocity()
+	{
+		Vector2 sumDirections = new Vector2(0,0);
 		
+		for (int i = 0; i < pointList.Count; i ++)
+		{
+			sumDirections += cardinalDirections[pointList[i]["wind speed"].ToString()];
+		}
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		
+	void Update ()
+	{
+		setWindSpeed();
 	}
 }
