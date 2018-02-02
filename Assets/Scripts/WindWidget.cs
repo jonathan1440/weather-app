@@ -15,7 +15,7 @@ public class WindWidget : MonoBehaviour {
 	
 	//for text components to edit
 	public Text windSpeedMsg;
-	public Text avgVelocityMsg;
+	public Text avgWindVelocityMsg;
 
 	//default messages
 	public string defaultWindSpeedMsg;
@@ -23,7 +23,7 @@ public class WindWidget : MonoBehaviour {
 	
 	//global variables
 	//to store list of possible windspeeds
-	private Dictionary<string, Vector2> cardinalDirections = new Dictionary<string, Vector2>();
+	private Dictionary<string, float> cardinalDirections = new Dictionary<string, float>();
 	
 	// Use this for initialization
 	void Start () {
@@ -31,32 +31,33 @@ public class WindWidget : MonoBehaviour {
 		pointList = CSVReader.Read(inputfile);
 		
 		//set list of possible windspeeds
-		cardinalDirections.Add("N",new Vector2(0,2));
-		cardinalDirections.Add("NNE",new Vector2(1,2));
-		cardinalDirections.Add("NE",new Vector2(2,2));
-		cardinalDirections.Add("ENE",new Vector2(2,1));
-		cardinalDirections.Add("E",new Vector2(2,0));
-		cardinalDirections.Add("ESE",new Vector2(2,-1));
-		cardinalDirections.Add("SE",new Vector2(2,-2));
-		cardinalDirections.Add("SSE",new Vector2(1,-2));
-		cardinalDirections.Add("S",new Vector2(0,-2));
-		cardinalDirections.Add("SSW",new Vector2(-1,-2));
-		cardinalDirections.Add("SW", new Vector2(-2,-2));
-		cardinalDirections.Add("WSW",new Vector2(-2,-1));
-		cardinalDirections.Add("W",new Vector2(-2,1));
-		cardinalDirections.Add("NW",new Vector2(-2,2));
-		cardinalDirections.Add("NWN",new Vector2(-1,2));
+		cardinalDirections.Add("E",0);
+		cardinalDirections.Add("ESE",-22.5f);
+		cardinalDirections.Add("SE",-45);
+		cardinalDirections.Add("SSE",-67.5f); //
+		cardinalDirections.Add("S",-90); //
+		cardinalDirections.Add("SSW",-112.5f); //
+		cardinalDirections.Add("SW",-135);
+		cardinalDirections.Add("WSW",-157.5f); //
+		cardinalDirections.Add("W",-180); //
+		cardinalDirections.Add("WNW",-202.5f);
+		cardinalDirections.Add("NW",-225);
+		cardinalDirections.Add("NNW",-247.5f); //
+		cardinalDirections.Add("N",-270); //
+		cardinalDirections.Add("NNE",-292.5f); //
+		cardinalDirections.Add("NE",-315);
+		cardinalDirections.Add("ENE",-337.5f);
 
 		//set default messages in case something below goes wrong
 		windSpeedMsg.text = defaultWindSpeedMsg;
-		avgVelocityMsg.text = defaultAvgVelocityMsg;
+		avgWindVelocityMsg.text = defaultAvgVelocityMsg;
 	}
 
 	//get most recent wind speed recording from data and output it in the display
 	private void getWindSpeed()
 	{
 		//get most recent wind speed, add it in to default wind speed message
-		defaultWindSpeedMsg = pointList[pointList.Count]["wind speed"].ToString() + " mpph";
+		defaultWindSpeedMsg = pointList[pointList.Count-1]["wind direction"]+"\n"+pointList[pointList.Count-1]["wind speed"].ToString() + " mph";
 		//plug wind speed message into display
 		windSpeedMsg.text = defaultWindSpeedMsg;
 	}
@@ -68,7 +69,7 @@ public class WindWidget : MonoBehaviour {
 		int last = pointList.Count;
 		
 		//initialize variables to store stuff to be summed throughout the data
-		Vector2 sumDirections = new Vector2(0,0);
+		float sumDirections = 0;
 		float avgSpeed = 0;
 		
 		//iterate through data list to sum up the "wind direction" and "wind speed" values
@@ -79,16 +80,21 @@ public class WindWidget : MonoBehaviour {
 		}
 
 		//complete the averaging of the wind direction vectors
-		Vector2 avgDir = sumDirections / last;
+		float avgDir = sumDirections / last;
+		//to round it to the nearest cardinal direction, we first have to enable it to round to the nearest int
+		avgDir /= 22.5f;
 		//round it to nearest integer, which is how the cardinal directions are stored
-		avgDir = new Vector2(Mathf.Round(avgDir.x), Mathf.Round(avgDir.y));
+		avgDir = Mathf.Round(avgDir) * 22.5f;
 		//convert the vector to the corresponding direction string 
 		var avgCardinalDir = cardinalDirections.FirstOrDefault(x => x.Value == avgDir).Key;
+		
+		//complete the averaging of the avg speed
+		avgSpeed = Mathf.Round((avgSpeed*10)/last)/10;
 
 		//set the avg velocity message
 		defaultAvgVelocityMsg = "avg. windspeed\nof " + avgSpeed + " mph from\nthe " + avgCardinalDir;
 		//plug the avg velocity message into the displa
-		avgVelocityMsg.text = defaultAvgVelocityMsg;
+		avgWindVelocityMsg.text = defaultAvgVelocityMsg;
 	}
 	
 	// Update is called once per frame
