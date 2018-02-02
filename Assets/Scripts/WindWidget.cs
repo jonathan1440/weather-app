@@ -1,5 +1,7 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -13,6 +15,11 @@ public class WindWidget : MonoBehaviour {
 	
 	//for text components to edit
 	public Text windSpeedMsg;
+	public Text avgVelocityMsg;
+
+	//default messages
+	public string defaultWindSpeedMsg;
+	public string defaultAvgVelocityMsg;
 	
 	//global variables
 	//to store list of possible windspeeds
@@ -39,30 +46,56 @@ public class WindWidget : MonoBehaviour {
 		cardinalDirections.Add("W",new Vector2(-2,1));
 		cardinalDirections.Add("NW",new Vector2(-2,2));
 		cardinalDirections.Add("NWN",new Vector2(-1,2));
+
+		//set default messages in case something below goes wrong
+		windSpeedMsg.text = defaultWindSpeedMsg;
+		avgVelocityMsg.text = defaultAvgVelocityMsg;
 	}
 
 	//get most recent wind speed recording from data and output it in the display
-	private void setWindSpeed()
+	private void getWindSpeed()
 	{
-		var last = pointList.Count;
-
-		windSpeedMsg.text = pointList[last]["wind speed"].ToString() + " mpph";
+		//get most recent wind speed, add it in to default wind speed message
+		defaultWindSpeedMsg = pointList[pointList.Count]["wind speed"].ToString() + " mpph";
+		//plug wind speed message into display
+		windSpeedMsg.text = defaultWindSpeedMsg;
 	}
 	
 	//get average wind velocity
 	private void getAvgWVelocity()
 	{
-		Vector2 sumDirections = new Vector2(0,0);
+		//length of data dictionary as an easily accessible variable
+		int last = pointList.Count;
 		
-		for (int i = 0; i < pointList.Count; i ++)
+		//initialize variables to store stuff to be summed throughout the data
+		Vector2 sumDirections = new Vector2(0,0);
+		float avgSpeed = 0;
+		
+		//iterate through data list to sum up the "wind direction" and "wind speed" values
+		for (int i = 0; i < last; i ++)
 		{
-			sumDirections += cardinalDirections[pointList[i]["wind speed"].ToString()];
+			sumDirections += cardinalDirections[pointList[i]["wind direction"].ToString()];
+			avgSpeed += Convert.ToSingle(pointList[i]["wind speed"]);
 		}
+
+		//complete the averaging of the wind direction vectors
+		Vector2 avgDir = sumDirections / last;
+		//round it to nearest integer, which is how the cardinal directions are stored
+		avgDir = new Vector2(Mathf.Round(avgDir.x), Mathf.Round(avgDir.y));
+		//convert the vector to the corresponding direction string 
+		var avgCardinalDir = cardinalDirections.FirstOrDefault(x => x.Value == avgDir).Key;
+
+		//set the avg velocity message
+		defaultAvgVelocityMsg = "avg. windspeed\nof " + avgSpeed + " mph from\nthe " + avgCardinalDir;
+		//plug the avg velocity message into the displa
+		avgVelocityMsg.text = defaultAvgVelocityMsg;
 	}
 	
 	// Update is called once per frame
 	void Update ()
 	{
-		setWindSpeed();
+		getWindSpeed();
+		
+		getAvgWVelocity();
 	}
 }
