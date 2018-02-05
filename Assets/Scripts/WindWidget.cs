@@ -21,7 +21,6 @@ public class WindWidget : MonoBehaviour {
 	public string defaultWindSpeedMsg;
 	public string defaultAvgVelocityMsg;
 	
-	//global variables
 	//to store list of possible windspeeds
 	private Dictionary<string, float> cardinalDirections = new Dictionary<string, float>();
 	
