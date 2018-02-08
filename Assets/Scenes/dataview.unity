@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.4964127, b: 0.57481724, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -254,7 +254,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "High: 77\xB0F"
+  m_Text: "High: 77.0\xB0F"
 --- !u!222 &24801486
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -284,8 +284,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 130486792}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 194.14, y: 130, z: 0}
-  m_LocalScale: {x: 95.67547, y: 57.40529, z: 57.40529}
+  m_LocalPosition: {x: -390, y: -54, z: 0}
+  m_LocalScale: {x: 60, y: 57.40529, z: 57.40529}
   m_Children:
   - {fileID: 1886181681}
   m_Father: {fileID: 2062079209}
@@ -1165,8 +1165,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1388657618}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -382, y: -244, z: 0}
-  m_LocalScale: {x: 95.675606, y: 57.40537, z: 57.40537}
+  m_LocalPosition: {x: -390, y: -173.7, z: 0}
+  m_LocalScale: {x: 60, y: 57.40537, z: 57.40537}
   m_Children:
   - {fileID: 1714727766}
   m_Father: {fileID: 2062079209}
@@ -1184,13 +1184,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputfile: 21-1-2018
-  curTime: 24:00:00
+  curTime: 0:01:12
   curTemp: {fileID: 1591303413}
   highTemp: {fileID: 24801485}
   lowTemp: {fileID: 1477286170}
   defaultCurTemp: "75\xB0F"
   defaultHighTemp: "High: 77\xB0F"
   defaultLowTemp: "Low: 46\xB0F"
+  mostRecent: 0
+  max: 0
+  min: 0
+  currentTemp: 0
 --- !u!1 &1477286168
 GameObject:
   m_ObjectHideFlags: 0
@@ -1258,7 +1262,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Low: 46\xB0F"
+  m_Text: "Low: 46.0\xB0F"
 --- !u!222 &1477286171
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1297,7 +1301,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.38, y: -0.27}
+  m_AnchoredPosition: {x: -1.38, y: -0.42}
   m_SizeDelta: {x: 160, y: 66.9}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1591303413
@@ -1332,7 +1336,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 0.8
-  m_Text: "75\xB0F"
+  m_Text: "75.0\xB0F"
 --- !u!222 &1591303414
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1433,8 +1437,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1737765162}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -385.81662, y: 131, z: 0}
-  m_LocalScale: {x: 95.675514, y: 57.40529, z: 57.405304}
+  m_LocalPosition: {x: -390, y: 65.7, z: 0}
+  m_LocalScale: {x: 60, y: 57.40529, z: 57.405304}
   m_Children:
   - {fileID: 1052975824}
   m_Father: {fileID: 2062079209}
@@ -1715,7 +1719,7 @@ RectTransform:
   m_GameObject: {fileID: 2062079208}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1737765163}
   - {fileID: 130486793}
@@ -1734,7 +1738,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2062079208}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
