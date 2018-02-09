@@ -8,7 +8,7 @@ using UnityEngine.UI;
 
 public class TempWidget : MonoBehaviour {
 
-	//Name of input data file, no extension
+	[Tooltip("Name of input data file, no extension")]
 	public string inputfile;
 	
 	// List for holding data from CSV reader
@@ -18,65 +18,35 @@ public class TempWidget : MonoBehaviour {
 	public string curTime;
 	
 	//for text components to edit
+	[Tooltip("Link to text object for displaying current temp")]
 	public Text curTemp;
+	[Tooltip("Link to text object for displaying high temp")]
 	public Text highTemp;
+	[Tooltip("Link")]
 	public Text lowTemp;
 	
 	//default messages
+	[Tooltip("Default message for current temp")]
 	public string defaultCurTemp;
+	[Tooltip("Default message for high temp")]
 	public string defaultHighTemp;
+	[Tooltip("Default message for low temp")]
 	public string defaultLowTemp;
 	
 	//store most recent data
-	public int mostRecent;
+	private int mostRecent;
 	//store high temp
+	[Tooltip("High temp")]
 	public float max;
 	//store low temp
+	[Tooltip("Low temp")]
 	public float min;
 	//store current temp
+	[Tooltip("Current temp")]
 	public float currentTemp;
 	
 	//store old curTime, to check if the mostRecent data needs to be updated
 	private string oldCurTime;
-
-	/*void Start()
-	{
-		//Set pointlist to results of function Reader with argument inputfile
-		pointList = CSVReader.Read(inputfile);
-
-		//set default messages in case something below goes wrong
-		curTemp.text = defaultCurTemp;
-		highTemp.text = defaultHighTemp;
-		lowTemp.text = defaultLowTemp;
-
-		max = 0;
-		min = Convert.ToSingle(pointList[0]["temperature"]);
-		foreach (Dictionary<string,object> i in pointList)
-		{
-			float temp = Convert.ToSingle(i["temperature"]);
-
-			if (temp > max)
-			{
-				max = temp;
-			}
-
-			if (temp < min)
-			{
-				min = temp;
-			}
-		}
-
-		currentTemp = Convert.ToSingle(pointList[pointList.Count - 1]["temperature"]);
-	}
-
-	void Update()
-	{
-		curTemp.text = Mathf.Round(currentTemp*10)/10  + "°F";
-
-		highTemp.text = "High: " + Mathf.Round(max*10)/10 + "°F";
-
-		lowTemp.text = "Low: " + Mathf.Round(min*10)/10 + "°F";
-	}*/
 
 	private void updateTempConstants(int i)
 	{
@@ -101,31 +71,25 @@ public class TempWidget : MonoBehaviour {
 	{
 		int mostRecent = 0;
 		
-		for(int i = 0; i < pointList.Count;){
-			string checking = pointList[i]["time"].ToString();
-			string[] it = checking.Split(new string[] {":"}, StringSplitOptions.None);
-			string[] t = curTime.Split(new string[] {":"}, StringSplitOptions.None);
-			Debug.Log(i);
-			Debug.Log(checking);
-			Debug.Log(it[0]+","+it[1]+","+it[2]);
-			Debug.Log(curTime);
-			Debug.Log(t[0] + "," + t[1] + "," + t[2]);
+		for(int i = 0; i < pointList.Count;)
+		{
+			DateTime it = DateTime.ParseExact(pointList[i]["time"].ToString(), "H:mm:ss", System.Globalization.CultureInfo.CurrentCulture);
+			DateTime t = DateTime.ParseExact(curTime, "H:mm:ss", System.Globalization.CultureInfo.CurrentCulture);
+			int compared = DateTime.Compare(it, t);
 			
-			if (it[0] == t[0] && it[1] == t[1] && it[2] == t[2])
+			if (compared == 0)
 			{
-				Debug.Log("time equalled");
 				mostRecent = i;
 				break;
 			}
 
-			if (int.Parse(it[0]) < int.Parse(t[2]) && double.Parse(it[1]+"."+it[2]) < double.Parse(t[1]+"."+t[2]))
+			if (compared < 0)
 			{
 				i++;
 			}
 			
-			if (int.Parse(it[0]) > int.Parse(t[2]) && int.Parse(it[1]) > int.Parse(t[1]) && int.Parse(it[2]) > int.Parse(t[2]))
+			if (compared > 0)
 			{
-				Debug.Log("time exceeded");
 				mostRecent = i-1;
 				break;
 			}
@@ -138,8 +102,6 @@ public class TempWidget : MonoBehaviour {
 	void Start () {
 		//Set pointlist to results of function Reader with argument inputfile
 		pointList = CSVReader.Read(inputfile);
-
-		//Debug.Log(pointList[0]["temperature"].GetType());
 		
 		//set default messages in case something below goes wrong
 		curTemp.text = defaultCurTemp;
@@ -161,7 +123,6 @@ public class TempWidget : MonoBehaviour {
 		
 		for(int i = 0; i < mostRecent; i ++)
 		{
-			Debug.Log("170: "+max+","+min+","+currentTemp+","+i);
 			updateTempConstants(i);
 		}
 	}
@@ -170,9 +131,9 @@ public class TempWidget : MonoBehaviour {
 	{
 		curTemp.text = currentTemp + "°F";
 
-		highTemp.text = "High: " + max + "°F";
+		highTemp.text = "high: " + max + "°F";
 
-		lowTemp.text = "Low: " + min + "°F";
+		lowTemp.text = "low: " + min + "°F";
 	}
 	
 	// Update is called once per frame
