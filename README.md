@@ -2,18 +2,13 @@
 
 The goal is to create a Unity web app showing weather data from my house for my senior project.
 
+This repoistory explains how I'm getting the weather data: https://github.com/jonathan1440/Get-Weather-Data
+
 **Using:**
 
-Python 3.6.2
-
-Anaconda
-
-JetBrains Rider 2017.1
-
-JetBrains PyCharm Community 2017.3.2
+JetBrains Rider 2017.1 173.3994
 
 Unity 2017.3 with support for:
-
 - MonoDevelop / Unity Debugger
 - Documentation
 - Standard Assets
@@ -25,10 +20,27 @@ Unity 2017.3 with support for:
 - Vuforia Augmented REality Support
 - WebGL Build
 
+**V1.0:**
+https://github.com/jonathan1440/weather-app/commit/7a07cb2fae4db602364b313d573d47327f7c26a7
+
+It displays current weather conditions and does some basic calculations based on preceeding weather.
+
+It displays:
+- is it raining?
+- rain depth
+- wind speed
+- wind direction
+- average wind speed
+- average wind direction
+- current temperature
+- high temp
+- low temp
+- current time (in simulation)
+- current date (in simulation)
+
+**V2.0, WIP:**
 I used the following tutorial to start me off on creating a scatterplot.
 https://sites.psu.edu/bdssblog/2017/04/06/basic-data-visualization-in-unity-scatterplot-creation/
-
-This unfinisehd repoistory is how I'm getting the weather data: https://github.com/jonathan1440/Get-Weather-Data
 
 To-do:
 1. Create graph prefab
