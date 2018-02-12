@@ -1,24 +1,27 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class WindWidget : MonoBehaviour {
 
-	//Name of input data file, no extension
+	[Tooltip("Name of input data file, no extension")]
 	public string inputfile;
 	
 	// List for holding data from CSV reader
 	private List<Dictionary<string, object>> pointList;
 	
-	//for text components to edit
+	[Tooltip("text component for wind speed message")]
 	public Text windSpeedMsg;
+	[Tooltip("text component for avg wind velocity message")]
 	public Text avgWindVelocityMsg;
 
-	//default messages
+	[Tooltip("default wind speed message")]
 	public string defaultWindSpeedMsg;
+	[Tooltip("default avg velocity message")]
 	public string defaultAvgVelocityMsg;
 	
 	//data storage
@@ -40,33 +43,45 @@ public class WindWidget : MonoBehaviour {
 	private void updateWindConstants()
 	{
 		//get wind direction
-		windDirection = pointList[mostRecent - 1]["wind direction"].ToString();
+		windDirection = pointList[mostRecent]["wind direction"].ToString();
 		
 		//get wind speed
-		windSpeed = Convert.ToSingle(pointList[mostRecent - 1]["wind speed"]);
+		windSpeed = Convert.ToSingle(pointList[mostRecent]["wind speed"]);
 		
 		//initialize variables to store stuff to be summed throughout the data
 		float sumDirections = 0;
+		//Debug.Log(Convert.ToString(avgSpeed));
 		
 		//iterate through data list to sum up the "wind direction" and "wind speed" values
 		for (int i = 0; i < mostRecent; i ++)
 		{
 			sumDirections += cardinalDirections[pointList[i]["wind direction"].ToString()];
-			avgSpeed += Convert.ToSingle(pointList[i]["wind speed"]);
+			avgSpeed = avgSpeed + Convert.ToSingle(pointList[i]["wind speed"]);
+			//Debug.Log(Convert.ToSingle(pointList[i]["wind speed"])+1.2f);
+			//Debug.Log(avgSpeed);
 		}
+		//Debug.Log(sumDirections);
+		//Debug.Log(avgSpeed);
 
 		//complete the averaging of the wind direction vectors
 		float avgDir = sumDirections / mostRecent;
+		//Debug.Log(avgDir);
+		
 		//to round it to the nearest cardinal direction, we first have to enable it to round to the nearest int
 		avgDir /= 22.5f;
+		//Debug.Log(avgDir);
+		
 		//round it to nearest integer, which is how the cardinal directions are stored
 		avgDir = Mathf.Round(avgDir) * 22.5f;
+		//Debug.Log(avgDir);
 		
 		//convert the vector to the corresponding direction string 
 		avgDirection = cardinalDirections.FirstOrDefault(x => x.Value == avgDir).Key;
+		//Debug.Log(avgDirection);
 		
 		//complete the averaging of the avg speed
-		avgSpeed = Mathf.Round((avgSpeed*10)/mostRecent)/10;
+		avgSpeed = Mathf.Round((avgSpeed*10)/(mostRecent+1))/10;
+		//Debug.Log(avgSpeed);
 	}
 	
 	private int getMostRecentData(string curTime)

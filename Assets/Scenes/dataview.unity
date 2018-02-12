@@ -145,7 +145,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.3947033, y: 0.13}
+  m_AnchoredPosition: {x: -1.3947033, y: 0.03}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &7071083
@@ -302,7 +302,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1eafe82af50c024990e48bf3f2e5d5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputfile: 21-1-2018
+  inputfile: test
   windSpeedMsg: {fileID: 1952606408}
   avgWindVelocityMsg: {fileID: 626297804}
   defaultWindSpeedMsg: '---\n0 mph'
@@ -312,7 +312,7 @@ MonoBehaviour:
   avgDirection: 
   avgSpeed: 0
   mostRecent: 0
-  curTime: 0:05:15
+  curTime: 0:00:00
 --- !u!1 &359094203
 GameObject:
   m_ObjectHideFlags: 0
@@ -415,7 +415,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.62, y: -0.75}
+  m_AnchoredPosition: {x: -0.62, y: -0.85}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &585020301
@@ -553,7 +553,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &656261324
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -873,10 +873,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a3d01e3ddadc5c4b94f6a4645c1d242, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inputfile: test
   startHour: 0
   startMinute: 0
   startSecond: 0
-  troc: 1
+  secondsPerUpdate: 0
+  troc: 5
   play: 1
   totalGameSeconds: 0
   currentGameTime: 
@@ -1101,7 +1103,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.38, y: -0.76}
+  m_AnchoredPosition: {x: -1.42, y: -0.76}
   m_SizeDelta: {x: 160, y: 66.9}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1079585049
@@ -1125,7 +1127,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 27
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -1136,7 +1138,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 0.8
-  m_Text: 0:05:15
+  m_Text: 15:05:15
 --- !u!222 &1079585050
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1175,7 +1177,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.38, y: -0.4}
+  m_AnchoredPosition: {x: -1.38, y: -0.44}
   m_SizeDelta: {x: 160, y: 40}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1240513986
@@ -1323,8 +1325,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dc34310ca74bfb458b54503813bdb14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputfile: 21-1-2018
-  curTime: 0:05:15
+  inputfile: test
+  curTime: 0:00:00
   curTemp: {fileID: 1591303413}
   highTemp: {fileID: 24801485}
   lowTemp: {fileID: 1477286170}
@@ -1594,7 +1596,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2d6f28f98bbbf84aafb73f9f41ec862, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputfile: 21-1-2018
+  inputfile: test
   rainCounterUnits: 0.01
   timeSinceRCIncrease: 60
   rainingMsg: it is raining
@@ -1603,7 +1605,8 @@ MonoBehaviour:
   rainDepthMsg: {fileID: 1240513986}
   isItCurrentlyRaining: 0
   rainDepth: 0
-  curTime: 0:05:15
+  curTime: 0:00:00
+  secondsPerUpdate: 15
 --- !u!1 &1744477714
 GameObject:
   m_ObjectHideFlags: 0

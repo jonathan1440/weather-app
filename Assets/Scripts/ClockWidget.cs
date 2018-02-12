@@ -6,6 +6,9 @@ using UnityEngine.UI;
 
 public class ClockWidget : MonoBehaviour
 {
+	[Tooltip("data file, without extension")]
+	public string inputfile;
+	
 	//to store simulation start time
 	[Tooltip("Start hour")]
 	public int startHour;
@@ -13,6 +16,8 @@ public class ClockWidget : MonoBehaviour
 	public int startMinute;
 	[Tooltip("Start second")]
 	public int startSecond;
+
+	public int secondsPerUpdate;
 	
 	//time rate of change
 	[Tooltip("seconds to elapse per frame")]
@@ -27,6 +32,7 @@ public class ClockWidget : MonoBehaviour
 	private int gameHour;
 	private int gameMinute;
 	private int gameSecond;
+	private float previousGameSeconds;
 	public string currentGameTime;
 
 	//GameObjects that need to access the current game time. This is REALLY BAD PRACTICE but I'm on a time crunch
@@ -37,24 +43,69 @@ public class ClockWidget : MonoBehaviour
 	//Text component for displaying the in-simulation time
 	public Text displayTime;
 
+	void updateTime()
+	{
+		//Debug.Log(totalGameSeconds);
+		//update total seconds
+		totalGameSeconds += troc * Time.deltaTime;
+		//Debug.Log(totalGameSeconds);
+
+		//convert it to h:m:s
+		gameHour = Mathf.FloorToInt(totalGameSeconds / 3600);
+		//Debug.Log("gh"+gameHour.ToString());
+		gameMinute = Mathf.FloorToInt((totalGameSeconds % 3600) / 60);
+		//Debug.Log("gm"+gameMinute.ToString());
+		gameSecond = Mathf.FloorToInt((totalGameSeconds % 3600) % 60);
+		//Debug.Log("gs"+gameSecond.ToString());
+
+		//create string of current game time
+		string gh = gameHour.ToString();
+		string gm = gameMinute.ToString();
+		string gs = gameSecond.ToString();
+		//Debug.Log(gs);
+		if (gm.Length == 1)
+		{
+			gm = "0" + gm;
+		}
+
+		if (gs.Length == 1)
+		{
+			gs = "0" + gs;
+		}
+		//Debug.Log(gs);
+		
+		currentGameTime = gh + ":" + gm + ":" + gs;
+		//Debug.Log(currentGameTime);
+		
+		//display current game time
+		displayTime.text = currentGameTime;
+	}
+
+	void updateWidgets()
+	{
+		//REALLY BAD PRACTICE:
+		rw.GetComponent<RainWidget>().curTime = currentGameTime;
+		ww.GetComponent<WindWidget>().curTime = currentGameTime;
+		tw.GetComponent<TempWidget>().curTime = currentGameTime;
+				
+		rw.GetComponent<RainWidget>().secondsPerUpdate = secondsPerUpdate;
+		/*
+		rw.GetComponent<RainWidget>().inputfile = inputfile;
+		ww.GetComponent<WindWidget>().inputfile = inputfile;
+		tw.GetComponent<TempWidget>().inputfile = inputfile;*/
+	}
+
 	// Use this for initialization
 	void Start ()
 	{
 		//get start seconds
 		totalGameSeconds += startHour * 3600 + startMinute * 60 + startSecond;
-		//update total seconds
-		totalGameSeconds += troc * Time.deltaTime;
-
-		//convert it to h:m:s
-		gameHour = Mathf.RoundToInt(totalGameSeconds % 60);
-		gameMinute = Mathf.RoundToInt((totalGameSeconds - gameHour * 3600) % 60);
-		gameSecond = Mathf.RoundToInt((totalGameSeconds - gameHour * 3600 - gameMinute * 60) % 60);
-
-		//create string of current game time
-		currentGameTime = gameHour.ToString() + ":" + gameMinute.ToString() + ":" + gameSecond.ToString();
 		
-		//display current game time
-		displayTime.text = currentGameTime;
+		previousGameSeconds = totalGameSeconds;
+		
+		updateTime();
+		
+		updateWidgets();
 	}
 	
 	// Update is called once per frame
@@ -62,20 +113,17 @@ public class ClockWidget : MonoBehaviour
 	{
 		if (play)
 		{
-			totalGameSeconds += troc * Time.deltaTime;
 
-			gameHour = Mathf.RoundToInt(totalGameSeconds % 60);
-			gameMinute = Mathf.RoundToInt((totalGameSeconds - gameHour * 3600) % 60);
-			gameSecond = Mathf.RoundToInt((totalGameSeconds - gameHour * 3600 - gameMinute * 60) % 60);
-
-			currentGameTime = gameHour.ToString() + ":" + gameMinute.ToString() + ":" + gameSecond.ToString();
-
-			//REALLY BAD PRACTICE:
-			rw.GetComponent<RainWidget>().curTime = currentGameTime;
-			ww.GetComponent<WindWidget>().curTime = currentGameTime;
-			tw.GetComponent<TempWidget>().curTime = currentGameTime;
-
-			displayTime.text = currentGameTime;
+			updateTime();
+			//Debug.Log("time calculated");
+			
+			if (true)//Math.Abs(previousGameSeconds + secondsPerUpdate - totalGameSeconds) < 0)
+			{
+				updateWidgets();
+				//Debug.Log("time updated");
+				
+				previousGameSeconds = totalGameSeconds;
+			}
 		}
 	}
 }

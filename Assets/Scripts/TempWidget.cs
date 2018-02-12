@@ -101,6 +101,7 @@ public class TempWidget : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		//Set pointlist to results of function Reader with argument inputfile
+		
 		pointList = CSVReader.Read(inputfile);
 		
 		//set default messages in case something below goes wrong

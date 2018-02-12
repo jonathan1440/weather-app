@@ -50,22 +50,24 @@ public class RainWidget : MonoBehaviour {
 	//store old curTime, to check if the mostRecent data needs to be updated
 	private string oldCurTime;
 
+	public int secondsPerUpdate;
+
 	private void updateRainConstants()
 	{
 		//get day's rainDepth
-		rainDepth = Convert.ToSingle(pointList[mostRecent-1]["rain counter"]) - Convert.ToSingle(pointList[0]["rain counter"]);
+		rainDepth = Convert.ToSingle(pointList[mostRecent]["rain counter"]) - Convert.ToSingle(pointList[0]["rain counter"]);
 		
 		//convert rain depth to inches
 		rainDepth *= rainCounterUnits;
 		
 		//Convert timeSinceRCIncrease from seconds to data entries
 		//Since they are both floats, all decimals will be ignored
-		timeSinceRCIncrease = timeSinceRCIncrease / 15;
+		timeSinceRCIncrease = timeSinceRCIncrease / (secondsPerUpdate + 1);
 		
 		//check to see if it is raining
 		//Get a baseline for the raincounter
-		var mostRecentRC = Convert.ToSingle(pointList[mostRecent - 1]["rain counter"]);
-		for (var i = mostRecent - 1 - timeSinceRCIncrease; i < mostRecent; i++)
+		var mostRecentRC = Convert.ToSingle(pointList[mostRecent]["rain counter"]);
+		for (var i = Math.Max(mostRecent - timeSinceRCIncrease, 0); i < mostRecent; i++)
 		{
 			isItCurrentlyRaining = false;
 			var rc = Convert.ToSingle(pointList[i]["rain counter"]);
