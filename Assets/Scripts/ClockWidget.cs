@@ -27,6 +27,9 @@ public class ClockWidget : MonoBehaviour
 	[Tooltip("Should time change/continue?")]
 	public Boolean play;
 
+	[Tooltip("ROC text GameObject")]
+	public Text rocText;
+	
 	//simulation time variables
 	public float totalGameSeconds = 0;
 	private int gameHour;
@@ -42,6 +45,12 @@ public class ClockWidget : MonoBehaviour
 
 	//Text component for displaying the in-simulation time
 	public Text displayTime;
+
+	public void updateROC(float newValue)
+	{
+		troc = newValue * newValue;
+		//Debug.Log(newValue * newValue);
+	}
 
 	void updateTime()
 	{
@@ -79,6 +88,8 @@ public class ClockWidget : MonoBehaviour
 		
 		//display current game time
 		displayTime.text = currentGameTime;
+
+		rocText.text = "x" + troc;
 	}
 
 	void updateWidgets()
