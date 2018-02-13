@@ -11,11 +11,11 @@ public class ClockWidget : MonoBehaviour
 	
 	//to store simulation start time
 	[Tooltip("Start hour")]
-	public int startHour;
+	public int startHour = 0;
 	[Tooltip("Start minute")]
-	public int startMinute;
+	public int startMinute = 0;
 	[Tooltip("Start second")]
-	public int startSecond;
+	public int startSecond = 0;
 
 	public int secondsPerUpdate;
 	
@@ -29,6 +29,8 @@ public class ClockWidget : MonoBehaviour
 
 	[Tooltip("ROC text GameObject")]
 	public Text rocText;
+	[Tooltip("start time text GameObject")]
+	public Text StartTimeText;
 	
 	//simulation time variables
 	public float totalGameSeconds = 0;
@@ -46,10 +48,29 @@ public class ClockWidget : MonoBehaviour
 	//Text component for displaying the in-simulation time
 	public Text displayTime;
 
+	//used by troc slider to update time ROC
 	public void updateROC(float newValue)
 	{
-		troc = newValue * newValue;
+		troc = Mathf.Round(newValue * newValue * 10) / 10f;
 		//Debug.Log(newValue * newValue);
+	}
+
+	//used by start hour slider to update startHour
+	public void updateStartHour(float newValue)
+	{
+		startHour = Mathf.RoundToInt(newValue);
+	}
+
+	//used by start min slider to update startMinute;
+	public void updateStartMin(float newValue)
+	{
+		startMinute = Mathf.RoundToInt(newValue);
+	}
+
+	//used by jump button to update totalGameSeconds to match start time variables
+	public void updateStartTime()
+	{
+		totalGameSeconds = startHour * 3600 + startMinute * 60 + startSecond;
 	}
 
 	void updateTime()
@@ -90,6 +111,15 @@ public class ClockWidget : MonoBehaviour
 		displayTime.text = currentGameTime;
 
 		rocText.text = "x" + troc;
+
+		string sh = startHour.ToString();
+		string sm = startMinute.ToString();
+		if (sm.Length == 1)
+		{
+			sm = "0" + sm;
+		}
+
+		StartTimeText.text = sh + ":" + sm;
 	}
 
 	void updateWidgets()

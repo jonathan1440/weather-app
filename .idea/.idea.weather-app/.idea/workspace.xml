@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.weather-app/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.weather-app/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/dataview.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/dataview.unity" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ClockWidget.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/ClockWidget.cs" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,8 +49,8 @@
       <file leaf-file-name="RainWidget.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/RainWidget.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="78" column="5" lean-forward="false" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+            <state relative-caret-position="369">
+              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding>
                 <marker date="1518469379914" expanded="false" signature="6:177" ph="..." />
                 <marker date="1518469379914" expanded="true" signature="219:4062" ph="{...}" />
@@ -78,7 +77,7 @@
       <file leaf-file-name="TempWidget.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/TempWidget.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="879">
+            <state relative-caret-position="25">
               <caret line="103" column="8" lean-forward="false" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
               <folding>
                 <marker date="1518467001212" expanded="false" signature="6:180" ph="..." />
@@ -104,25 +103,29 @@
       <file leaf-file-name="ClockWidget.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ClockWidget.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="51" column="10" lean-forward="false" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+            <state relative-caret-position="490">
+              <caret line="66" column="49" lean-forward="true" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="49" />
               <folding>
-                <marker date="1518556284996" expanded="false" signature="6:114" ph="..." />
-                <marker date="1518556284996" expanded="true" signature="156:3286" ph="{...}" />
-                <marker date="1518556284996" expanded="true" signature="1198:1270" ph="{...}" />
-                <marker date="1518556284996" expanded="true" signature="1290:2236" ph="{...}" />
-                <marker date="1518556284996" expanded="true" signature="1296:1351" ph="/* Debug.Log(totalGameSeconds); ... */" />
-                <marker date="1518556284996" expanded="true" signature="1399:1454" ph="/* Debug.Log(totalGameSeconds); ... */" />
-                <marker date="1518556284996" expanded="true" signature="1727:1807" ph="/* Debug.Log(&quot;gs&quot;+gameSecond.ToString()); ... */" />
-                <marker date="1518556284996" expanded="true" signature="1957:1983" ph="{...}" />
-                <marker date="1518556284996" expanded="true" signature="2006:2032" ph="{...}" />
-                <marker date="1518556284996" expanded="true" signature="2103:2165" ph="/* Debug.Log(currentGameTime); ... */" />
-                <marker date="1518556284996" expanded="true" signature="2259:2713" ph="{...}" />
-                <marker date="1518556284996" expanded="true" signature="2541:2710" ph="/* rw.GetComponent&lt;RainWidget&gt;().inputfile = inputfile; ... */" />
-                <marker date="1518556284996" expanded="true" signature="2761:2948" ph="{...}" />
-                <marker date="1518556284996" expanded="true" signature="3001:3284" ph="{...}" />
-                <marker date="1518556284996" expanded="true" signature="3016:3281" ph="{...}" />
-                <marker date="1518556284996" expanded="true" signature="3164:3277" ph="{...}" />
+                <marker date="1518559247789" expanded="false" signature="6:114" ph="..." />
+                <marker date="1518559247789" expanded="true" signature="156:4074" ph="{...}" />
+                <marker date="1518559247789" expanded="true" signature="1321:1417" ph="{...}" />
+                <marker date="1518559247789" expanded="true" signature="1512:1560" ph="{...}" />
+                <marker date="1518559247789" expanded="true" signature="1656:1706" ph="{...}" />
+                <marker date="1518559247789" expanded="true" signature="1818:1896" ph="{...}" />
+                <marker date="1518559247789" expanded="true" signature="1916:3024" ph="{...}" />
+                <marker date="1518559247789" expanded="true" signature="1922:1977" ph="/* Debug.Log(totalGameSeconds); ... */" />
+                <marker date="1518559247789" expanded="true" signature="2025:2080" ph="/* Debug.Log(totalGameSeconds); ... */" />
+                <marker date="1518559247789" expanded="true" signature="2353:2433" ph="/* Debug.Log(&quot;gs&quot;+gameSecond.ToString()); ... */" />
+                <marker date="1518559247789" expanded="true" signature="2583:2609" ph="{...}" />
+                <marker date="1518559247789" expanded="true" signature="2632:2658" ph="{...}" />
+                <marker date="1518559247789" expanded="true" signature="2729:2791" ph="/* Debug.Log(currentGameTime); ... */" />
+                <marker date="1518559247789" expanded="true" signature="2956:2982" ph="{...}" />
+                <marker date="1518559247789" expanded="true" signature="3047:3501" ph="{...}" />
+                <marker date="1518559247789" expanded="true" signature="3329:3498" ph="/* rw.GetComponent&lt;RainWidget&gt;().inputfile = inputfile; ... */" />
+                <marker date="1518559247789" expanded="true" signature="3549:3736" ph="{...}" />
+                <marker date="1518559247789" expanded="true" signature="3789:4072" ph="{...}" />
+                <marker date="1518559247789" expanded="true" signature="3804:4069" ph="{...}" />
+                <marker date="1518559247789" expanded="true" signature="3952:4065" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -261,12 +264,12 @@
       <workItem from="1518128642901" duration="837000" />
       <workItem from="1518200012645" duration="13559000" />
       <workItem from="1518458669477" duration="9135000" />
-      <workItem from="1518549645239" duration="3034000" />
+      <workItem from="1518549645239" duration="5944000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86998000" />
+    <option name="totallyTimeSpent" value="89908000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -322,22 +325,26 @@
         <state relative-caret-position="1530">
           <caret line="106" column="8" lean-forward="false" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
           <folding>
-            <marker date="1518556284996" expanded="false" signature="6:114" ph="..." />
-            <marker date="1518556284996" expanded="true" signature="156:3286" ph="{...}" />
-            <marker date="1518556284996" expanded="true" signature="1198:1270" ph="{...}" />
-            <marker date="1518556284996" expanded="true" signature="1290:2236" ph="{...}" />
-            <marker date="1518556284996" expanded="true" signature="1296:1351" ph="/* Debug.Log(totalGameSeconds); ... */" />
-            <marker date="1518556284996" expanded="true" signature="1399:1454" ph="/* Debug.Log(totalGameSeconds); ... */" />
-            <marker date="1518556284996" expanded="true" signature="1727:1807" ph="/* Debug.Log(&quot;gs&quot;+gameSecond.ToString()); ... */" />
-            <marker date="1518556284996" expanded="true" signature="1957:1983" ph="{...}" />
-            <marker date="1518556284996" expanded="true" signature="2006:2032" ph="{...}" />
-            <marker date="1518556284996" expanded="true" signature="2103:2165" ph="/* Debug.Log(currentGameTime); ... */" />
-            <marker date="1518556284996" expanded="true" signature="2259:2713" ph="{...}" />
-            <marker date="1518556284996" expanded="true" signature="2541:2710" ph="/* rw.GetComponent&lt;RainWidget&gt;().inputfile = inputfile; ... */" />
-            <marker date="1518556284996" expanded="true" signature="2761:2948" ph="{...}" />
-            <marker date="1518556284996" expanded="true" signature="3001:3284" ph="{...}" />
-            <marker date="1518556284996" expanded="true" signature="3016:3281" ph="{...}" />
-            <marker date="1518556284996" expanded="true" signature="3164:3277" ph="{...}" />
+            <marker date="1518559247789" expanded="false" signature="6:114" ph="..." />
+            <marker date="1518559247789" expanded="true" signature="156:4074" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="1321:1417" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="1512:1560" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="1656:1706" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="1818:1896" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="1916:3024" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="1922:1977" ph="/* Debug.Log(totalGameSeconds); ... */" />
+            <marker date="1518559247789" expanded="true" signature="2025:2080" ph="/* Debug.Log(totalGameSeconds); ... */" />
+            <marker date="1518559247789" expanded="true" signature="2353:2433" ph="/* Debug.Log(&quot;gs&quot;+gameSecond.ToString()); ... */" />
+            <marker date="1518559247789" expanded="true" signature="2583:2609" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="2632:2658" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="2729:2791" ph="/* Debug.Log(currentGameTime); ... */" />
+            <marker date="1518559247789" expanded="true" signature="2956:2982" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="3047:3501" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="3329:3498" ph="/* rw.GetComponent&lt;RainWidget&gt;().inputfile = inputfile; ... */" />
+            <marker date="1518559247789" expanded="true" signature="3549:3736" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="3789:4072" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="3804:4069" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="3952:4065" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -426,22 +433,26 @@
         <state relative-caret-position="825">
           <caret line="55" column="35" lean-forward="false" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
           <folding>
-            <marker date="1518556284996" expanded="false" signature="6:114" ph="..." />
-            <marker date="1518556284996" expanded="true" signature="156:3286" ph="{...}" />
-            <marker date="1518556284996" expanded="true" signature="1198:1270" ph="{...}" />
-            <marker date="1518556284996" expanded="true" signature="1290:2236" ph="{...}" />
-            <marker date="1518556284996" expanded="true" signature="1296:1351" ph="/* Debug.Log(totalGameSeconds); ... */" />
-            <marker date="1518556284996" expanded="true" signature="1399:1454" ph="/* Debug.Log(totalGameSeconds); ... */" />
-            <marker date="1518556284996" expanded="true" signature="1727:1807" ph="/* Debug.Log(&quot;gs&quot;+gameSecond.ToString()); ... */" />
-            <marker date="1518556284996" expanded="true" signature="1957:1983" ph="{...}" />
-            <marker date="1518556284996" expanded="true" signature="2006:2032" ph="{...}" />
-            <marker date="1518556284996" expanded="true" signature="2103:2165" ph="/* Debug.Log(currentGameTime); ... */" />
-            <marker date="1518556284996" expanded="true" signature="2259:2713" ph="{...}" />
-            <marker date="1518556284996" expanded="true" signature="2541:2710" ph="/* rw.GetComponent&lt;RainWidget&gt;().inputfile = inputfile; ... */" />
-            <marker date="1518556284996" expanded="true" signature="2761:2948" ph="{...}" />
-            <marker date="1518556284996" expanded="true" signature="3001:3284" ph="{...}" />
-            <marker date="1518556284996" expanded="true" signature="3016:3281" ph="{...}" />
-            <marker date="1518556284996" expanded="true" signature="3164:3277" ph="{...}" />
+            <marker date="1518559247789" expanded="false" signature="6:114" ph="..." />
+            <marker date="1518559247789" expanded="true" signature="156:4074" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="1321:1417" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="1512:1560" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="1656:1706" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="1818:1896" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="1916:3024" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="1922:1977" ph="/* Debug.Log(totalGameSeconds); ... */" />
+            <marker date="1518559247789" expanded="true" signature="2025:2080" ph="/* Debug.Log(totalGameSeconds); ... */" />
+            <marker date="1518559247789" expanded="true" signature="2353:2433" ph="/* Debug.Log(&quot;gs&quot;+gameSecond.ToString()); ... */" />
+            <marker date="1518559247789" expanded="true" signature="2583:2609" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="2632:2658" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="2729:2791" ph="/* Debug.Log(currentGameTime); ... */" />
+            <marker date="1518559247789" expanded="true" signature="2956:2982" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="3047:3501" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="3329:3498" ph="/* rw.GetComponent&lt;RainWidget&gt;().inputfile = inputfile; ... */" />
+            <marker date="1518559247789" expanded="true" signature="3549:3736" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="3789:4072" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="3804:4069" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="3952:4065" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -951,8 +962,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/RainWidget.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="78" column="5" lean-forward="false" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+        <state relative-caret-position="369">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding>
             <marker date="1518469379914" expanded="false" signature="6:177" ph="..." />
             <marker date="1518469379914" expanded="true" signature="219:4062" ph="{...}" />
@@ -977,7 +988,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/TempWidget.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="879">
+        <state relative-caret-position="25">
           <caret line="103" column="8" lean-forward="false" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
           <folding>
             <marker date="1518467001212" expanded="false" signature="6:180" ph="..." />
@@ -1001,25 +1012,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ClockWidget.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="51" column="10" lean-forward="false" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+        <state relative-caret-position="490">
+          <caret line="66" column="49" lean-forward="true" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="49" />
           <folding>
-            <marker date="1518556284996" expanded="false" signature="6:114" ph="..." />
-            <marker date="1518556284996" expanded="true" signature="156:3286" ph="{...}" />
-            <marker date="1518556284996" expanded="true" signature="1198:1270" ph="{...}" />
-            <marker date="1518556284996" expanded="true" signature="1290:2236" ph="{...}" />
-            <marker date="1518556284996" expanded="true" signature="1296:1351" ph="/* Debug.Log(totalGameSeconds); ... */" />
-            <marker date="1518556284996" expanded="true" signature="1399:1454" ph="/* Debug.Log(totalGameSeconds); ... */" />
-            <marker date="1518556284996" expanded="true" signature="1727:1807" ph="/* Debug.Log(&quot;gs&quot;+gameSecond.ToString()); ... */" />
-            <marker date="1518556284996" expanded="true" signature="1957:1983" ph="{...}" />
-            <marker date="1518556284996" expanded="true" signature="2006:2032" ph="{...}" />
-            <marker date="1518556284996" expanded="true" signature="2103:2165" ph="/* Debug.Log(currentGameTime); ... */" />
-            <marker date="1518556284996" expanded="true" signature="2259:2713" ph="{...}" />
-            <marker date="1518556284996" expanded="true" signature="2541:2710" ph="/* rw.GetComponent&lt;RainWidget&gt;().inputfile = inputfile; ... */" />
-            <marker date="1518556284996" expanded="true" signature="2761:2948" ph="{...}" />
-            <marker date="1518556284996" expanded="true" signature="3001:3284" ph="{...}" />
-            <marker date="1518556284996" expanded="true" signature="3016:3281" ph="{...}" />
-            <marker date="1518556284996" expanded="true" signature="3164:3277" ph="{...}" />
+            <marker date="1518559247789" expanded="false" signature="6:114" ph="..." />
+            <marker date="1518559247789" expanded="true" signature="156:4074" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="1321:1417" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="1512:1560" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="1656:1706" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="1818:1896" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="1916:3024" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="1922:1977" ph="/* Debug.Log(totalGameSeconds); ... */" />
+            <marker date="1518559247789" expanded="true" signature="2025:2080" ph="/* Debug.Log(totalGameSeconds); ... */" />
+            <marker date="1518559247789" expanded="true" signature="2353:2433" ph="/* Debug.Log(&quot;gs&quot;+gameSecond.ToString()); ... */" />
+            <marker date="1518559247789" expanded="true" signature="2583:2609" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="2632:2658" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="2729:2791" ph="/* Debug.Log(currentGameTime); ... */" />
+            <marker date="1518559247789" expanded="true" signature="2956:2982" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="3047:3501" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="3329:3498" ph="/* rw.GetComponent&lt;RainWidget&gt;().inputfile = inputfile; ... */" />
+            <marker date="1518559247789" expanded="true" signature="3549:3736" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="3789:4072" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="3804:4069" ph="{...}" />
+            <marker date="1518559247789" expanded="true" signature="3952:4065" ph="{...}" />
           </folding>
         </state>
       </provider>
