@@ -60,6 +60,9 @@ public class RainWidget : MonoBehaviour {
 		//convert rain depth to inches
 		rainDepth *= rainCounterUnits;
 		
+		//Round off rainDepth
+		//rainDepth = Mathf.RoundToInt(rainDepth * 100) / 100;
+		
 		//Convert timeSinceRCIncrease from seconds to data entries
 		//Since they are both floats, all decimals will be ignored
 		timeSinceRCIncrease = timeSinceRCIncrease / (secondsPerUpdate + 1);
@@ -139,7 +142,7 @@ public class RainWidget : MonoBehaviour {
 			isRainingTextMsg.text = notRainingMsg;
 		}
 		
-		rainDepthMsg.text = rainDepth.ToString() + " in";
+		rainDepthMsg.text = rainDepth.ToString().Substring(0,Math.Min(rainDepth.ToString().Length,5)) + " in";
 	}
 	
 	// Update is called once per frame

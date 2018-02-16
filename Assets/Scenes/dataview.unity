@@ -1822,7 +1822,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputfile: 21-1-2018
-  startHour: 1
+  startHour: 0
   startMinute: 0
   startSecond: 0
   secondsPerUpdate: 0
