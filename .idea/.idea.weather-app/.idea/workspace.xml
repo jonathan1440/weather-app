@@ -4,6 +4,10 @@
     <list default="true" id="8b2fb33e-3de9-4f33-b70b-4ee807dd70a9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.weather-app/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.weather-app/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.weather-app/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.weather-app/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/27-2-2018.csv" afterPath="$PROJECT_DIR$/Assets/Resources/27-2-2018.csv" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RainWidget.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/RainWidget.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,40 +21,30 @@
       <file leaf-file-name="WindWidget.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/WindWidget.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2520">
-              <caret line="174" column="50" lean-forward="false" selection-start-line="174" selection-start-column="44" selection-end-line="174" selection-end-column="50" />
+            <state relative-caret-position="180">
+              <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
               <folding>
-                <marker date="1518695288308" expanded="false" signature="6:161" ph="..." />
-                <marker date="1518695288308" expanded="true" signature="203:5041" ph="{...}" />
-                <marker date="1518695288308" expanded="true" signature="1224:2727" ph="{...}" />
-                <marker date="1518695288308" expanded="true" signature="1517:1645" ph="/* Debug.Log(Convert.ToString(avgSpeed)); ... */" />
-                <marker date="1518695288308" expanded="true" signature="1685:1940" ph="{...}" />
-                <marker date="1518695288308" expanded="true" signature="1847:1936" ph="/* Debug.Log(Convert.ToSingle(pointList[i][&quot;wind speed&quot;])+1.2f); ... */" />
-                <marker date="1518695288308" expanded="true" signature="1943:2053" ph="/* Debug.Log(sumDirections); ... */" />
-                <marker date="1518695288308" expanded="true" signature="2101:2230" ph="/* Debug.Log(avgDir); ... */" />
-                <marker date="1518695288308" expanded="true" signature="2252:2356" ph="/* Debug.Log(avgDir); ... */" />
-                <marker date="1518695288308" expanded="true" signature="2399:2484" ph="/* Debug.Log(avgDir); ... */" />
-                <marker date="1518695288308" expanded="true" signature="2567:2640" ph="/* Debug.Log(avgDirection); ... */" />
-                <marker date="1518695288308" expanded="true" signature="2776:3332" ph="{...}" />
-                <marker date="1518695288308" expanded="true" signature="2843:3307" ph="{...}" />
-                <marker date="1518695288308" expanded="true" signature="3153:3194" ph="{...}" />
-                <marker date="1518695288308" expanded="true" signature="3216:3235" ph="{...}" />
-                <marker date="1518695288308" expanded="true" signature="3260:3303" ph="{...}" />
-                <marker date="1518695288308" expanded="true" signature="3382:4479" ph="{...}" />
-                <marker date="1518695288308" expanded="true" signature="4507:4786" ph="{...}" />
-                <marker date="1518695288308" expanded="true" signature="4840:5039" ph="{...}" />
-                <marker date="1518695288308" expanded="true" signature="4955:5036" ph="{...}" />
+                <marker date="1518469620421" expanded="false" signature="6:161" ph="..." />
+                <marker date="1518469620421" expanded="true" signature="203:5041" ph="{...}" />
+                <marker date="1518469620421" expanded="true" signature="1224:2727" ph="{...}" />
+                <marker date="1518469620421" expanded="true" signature="1517:1645" ph="/* Debug.Log(Convert.ToString(avgSpeed)); ... */" />
+                <marker date="1518469620421" expanded="true" signature="1685:1940" ph="{...}" />
+                <marker date="1518469620421" expanded="true" signature="1847:1936" ph="/* Debug.Log(Convert.ToSingle(pointList[i][&quot;wind speed&quot;])+1.2f); ... */" />
+                <marker date="1518469620421" expanded="true" signature="1943:2053" ph="/* Debug.Log(sumDirections); ... */" />
+                <marker date="1518469620421" expanded="true" signature="2101:2230" ph="/* Debug.Log(avgDir); ... */" />
+                <marker date="1518469620421" expanded="true" signature="2252:2356" ph="/* Debug.Log(avgDir); ... */" />
+                <marker date="1518469620421" expanded="true" signature="2399:2484" ph="/* Debug.Log(avgDir); ... */" />
+                <marker date="1518469620421" expanded="true" signature="2567:2640" ph="/* Debug.Log(avgDirection); ... */" />
+                <marker date="1518469620421" expanded="true" signature="2776:3332" ph="{...}" />
+                <marker date="1518469620421" expanded="true" signature="2843:3307" ph="{...}" />
+                <marker date="1518469620421" expanded="true" signature="3153:3194" ph="{...}" />
+                <marker date="1518469620421" expanded="true" signature="3216:3235" ph="{...}" />
+                <marker date="1518469620421" expanded="true" signature="3260:3303" ph="{...}" />
+                <marker date="1518469620421" expanded="true" signature="3382:4479" ph="{...}" />
+                <marker date="1518469620421" expanded="true" signature="4507:4786" ph="{...}" />
+                <marker date="1518469620421" expanded="true" signature="4840:5039" ph="{...}" />
+                <marker date="1518469620421" expanded="true" signature="4955:5036" ph="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RainWidget.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/RainWidget.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2160">
-              <caret line="149" column="5" lean-forward="false" selection-start-line="149" selection-start-column="5" selection-end-line="149" selection-end-column="5" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -58,39 +52,105 @@
       <file leaf-file-name="TempWidget.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/TempWidget.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1545">
+            <state relative-caret-position="69">
               <caret line="103" column="8" lean-forward="false" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
-              <folding />
+              <folding>
+                <marker date="1518467001212" expanded="false" signature="6:180" ph="..." />
+                <marker date="1518467001212" expanded="true" signature="222:3441" ph="{...}" />
+                <marker date="1518467001212" expanded="true" signature="1348:1675" ph="{...}" />
+                <marker date="1518467001212" expanded="true" signature="1488:1510" ph="{...}" />
+                <marker date="1518467001212" expanded="true" signature="1574:1596" ph="{...}" />
+                <marker date="1518467001212" expanded="true" signature="1723:2279" ph="{...}" />
+                <marker date="1518467001212" expanded="true" signature="1790:2254" ph="{...}" />
+                <marker date="1518467001212" expanded="true" signature="2100:2141" ph="{...}" />
+                <marker date="1518467001212" expanded="true" signature="2163:2182" ph="{...}" />
+                <marker date="1518467001212" expanded="true" signature="2207:2250" ph="{...}" />
+                <marker date="1518467001212" expanded="true" signature="2329:3023" ph="{...}" />
+                <marker date="1518467001212" expanded="true" signature="2985:3020" ph="{...}" />
+                <marker date="1518467001212" expanded="true" signature="3051:3176" ph="{...}" />
+                <marker date="1518467001212" expanded="true" signature="3230:3439" ph="{...}" />
+                <marker date="1518467001212" expanded="true" signature="3355:3436" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClockWidget.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ClockWidget.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ClockWidget.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="106" column="26" lean-forward="true" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="26" />
+            <state relative-caret-position="168">
+              <caret line="106" column="51" lean-forward="false" selection-start-line="106" selection-start-column="51" selection-end-line="106" selection-end-column="51" />
               <folding>
-                <marker date="1518695288242" expanded="false" signature="6:114" ph="..." />
-                <marker date="1518695288242" expanded="true" signature="156:4074" ph="{...}" />
-                <marker date="1518695288242" expanded="true" signature="1321:1417" ph="{...}" />
-                <marker date="1518695288242" expanded="true" signature="1512:1560" ph="{...}" />
-                <marker date="1518695288242" expanded="true" signature="1656:1706" ph="{...}" />
-                <marker date="1518695288242" expanded="true" signature="1818:1896" ph="{...}" />
-                <marker date="1518695288242" expanded="true" signature="1916:3024" ph="{...}" />
-                <marker date="1518695288242" expanded="true" signature="1922:1977" ph="/* Debug.Log(totalGameSeconds); ... */" />
-                <marker date="1518695288242" expanded="true" signature="2025:2080" ph="/* Debug.Log(totalGameSeconds); ... */" />
-                <marker date="1518695288242" expanded="true" signature="2353:2433" ph="/* Debug.Log(&quot;gs&quot;+gameSecond.ToString()); ... */" />
-                <marker date="1518695288242" expanded="true" signature="2583:2609" ph="{...}" />
-                <marker date="1518695288242" expanded="true" signature="2632:2658" ph="{...}" />
-                <marker date="1518695288242" expanded="true" signature="2729:2791" ph="/* Debug.Log(currentGameTime); ... */" />
-                <marker date="1518695288242" expanded="true" signature="2956:2982" ph="{...}" />
-                <marker date="1518695288242" expanded="true" signature="3047:3501" ph="{...}" />
-                <marker date="1518695288242" expanded="true" signature="3329:3498" ph="/* rw.GetComponent&lt;RainWidget&gt;().inputfile = inputfile; ... */" />
-                <marker date="1518695288242" expanded="true" signature="3549:3736" ph="{...}" />
-                <marker date="1518695288242" expanded="true" signature="3789:4072" ph="{...}" />
-                <marker date="1518695288242" expanded="true" signature="3804:4069" ph="{...}" />
-                <marker date="1518695288242" expanded="true" signature="3952:4065" ph="{...}" />
+                <marker date="1521573713068" expanded="false" signature="6:114" ph="..." />
+                <marker date="1521573713068" expanded="true" signature="156:4074" ph="{...}" />
+                <marker date="1521573713068" expanded="true" signature="1321:1417" ph="{...}" />
+                <marker date="1521573713068" expanded="true" signature="1512:1560" ph="{...}" />
+                <marker date="1521573713068" expanded="true" signature="1656:1706" ph="{...}" />
+                <marker date="1521573713068" expanded="true" signature="1818:1896" ph="{...}" />
+                <marker date="1521573713068" expanded="true" signature="1916:3024" ph="{...}" />
+                <marker date="1521573713068" expanded="true" signature="1922:1977" ph="/* Debug.Log(totalGameSeconds); ... */" />
+                <marker date="1521573713068" expanded="true" signature="2025:2080" ph="/* Debug.Log(totalGameSeconds); ... */" />
+                <marker date="1521573713068" expanded="true" signature="2353:2433" ph="/* Debug.Log(&quot;gs&quot;+gameSecond.ToString()); ... */" />
+                <marker date="1521573713068" expanded="true" signature="2583:2609" ph="{...}" />
+                <marker date="1521573713068" expanded="true" signature="2632:2658" ph="{...}" />
+                <marker date="1521573713068" expanded="true" signature="2729:2791" ph="/* Debug.Log(currentGameTime); ... */" />
+                <marker date="1521573713068" expanded="true" signature="2956:2982" ph="{...}" />
+                <marker date="1521573713068" expanded="true" signature="3047:3501" ph="{...}" />
+                <marker date="1521573713068" expanded="true" signature="3329:3498" ph="/* rw.GetComponent&lt;RainWidget&gt;().inputfile = inputfile; ... */" />
+                <marker date="1521573713068" expanded="true" signature="3549:3736" ph="{...}" />
+                <marker date="1521573713068" expanded="true" signature="3789:4072" ph="{...}" />
+                <marker date="1521573713068" expanded="true" signature="3804:4069" ph="{...}" />
+                <marker date="1521573713068" expanded="true" signature="3952:4065" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RainWidget.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/RainWidget.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="128" column="29" lean-forward="true" selection-start-line="128" selection-start-column="29" selection-end-line="128" selection-end-column="29" />
+              <folding>
+                <marker date="1521576642481" expanded="false" signature="6:177" ph="..." />
+                <marker date="1521576642481" expanded="true" signature="219:4505" ph="{...}" />
+                <marker date="1521576642481" expanded="true" signature="1678:2596" ph="{...}" />
+                <marker date="1521576642481" expanded="true" signature="1900:2103" ph="/* Round off rainDepth ... */" />
+                <marker date="1521576642481" expanded="true" signature="2179:2249" ph="/* check to see if it is raining ... */" />
+                <marker date="1521576642481" expanded="true" signature="2410:2593" ph="{...}" />
+                <marker date="1521576642481" expanded="true" signature="2645:3437" ph="{...}" />
+                <marker date="1521576642481" expanded="true" signature="2748:3407" ph="{...}" />
+                <marker date="1521576642481" expanded="true" signature="2936:3068" ph="/* DateTime it = DateTime.ParseExact(&quot;0:01:26&quot;, &quot;H:mm:ss&quot;, System.Globalization.CultureInfo.CurrentCulture); ... */" />
+                <marker date="1521576642481" expanded="true" signature="3243:3289" ph="{...}" />
+                <marker date="1521576642481" expanded="true" signature="3311:3330" ph="{...}" />
+                <marker date="1521576642481" expanded="true" signature="3355:3403" ph="{...}" />
+                <marker date="1521576642481" expanded="true" signature="3493:3935" ph="{...}" />
+                <marker date="1521576642481" expanded="true" signature="3612:3706" ph="/* Debug.Log(pointList[1][&quot;time&quot;]); ... */" />
+                <marker date="1521576642481" expanded="true" signature="3803:3861" ph="/* get most recent data ... */" />
+                <marker date="1521576642481" expanded="true" signature="3964:4242" ph="{...}" />
+                <marker date="1521576642481" expanded="true" signature="4027:4074" ph="{...}" />
+                <marker date="1521576642481" expanded="true" signature="4081:4131" ph="{...}" />
+                <marker date="1521576642481" expanded="true" signature="4304:4503" ph="{...}" />
+                <marker date="1521576642481" expanded="true" signature="4419:4500" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CSVReader.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CSVReader.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+              <folding>
+                <marker date="1515180422000" expanded="false" signature="6:130" ph="..." />
+                <marker date="1515180422000" expanded="true" signature="132:355" ph="/* Taken from here: https://bravenewmethod.com/2014/09/13/lightweight-csv-reader-for-unity ... */" />
+                <marker date="1515180422000" expanded="true" signature="379:2897" ph="{...}" />
+                <marker date="1515180422000" expanded="true" signature="743:2895" ph="{...}" />
+                <marker date="1515180422000" expanded="true" signature="1520:2854" ph="{...}" />
+                <marker date="1515180422000" expanded="true" signature="2009:2770" ph="{...}" />
+                <marker date="1515180422000" expanded="true" signature="2510:2582" ph="{...}" />
+                <marker date="1515180422000" expanded="true" signature="2637:2709" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -108,13 +168,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WindWidget.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ClockWidget.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CSVReader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScatterPlotter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TempWidget.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RainWidget.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScatterPlotter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WindWidget.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -128,8 +189,9 @@
         <option value="$PROJECT_DIR$/Assets/Resources/21-1-2018.csv" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TempWidget.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WindWidget.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RainWidget.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CSVReader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ClockWidget.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RainWidget.cs" />
       </list>
     </option>
   </component>
@@ -139,9 +201,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2" />
-    <option name="y" value="4" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="560" />
+    <option name="y" value="17" />
     <option name="width" value="949" />
     <option name="height" value="1047" />
   </component>
@@ -160,6 +222,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -173,7 +236,6 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,7 +257,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" />
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" pid="15904" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -236,7 +298,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92750000" />
+    <option name="totallyTimeSpent" value="96131000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -248,29 +310,44 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.078125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32873806" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39872748" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993576" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.078125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32873806" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993576" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +358,22 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/CSVReader.cs</url>
+          <line>54</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/CSVReader.cs">
+            <startOffsets>
+              <startOffset value="2479" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="2510" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -291,26 +383,26 @@
         <state relative-caret-position="1530">
           <caret line="106" column="8" lean-forward="false" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
           <folding>
-            <marker date="1518695288242" expanded="false" signature="6:114" ph="..." />
-            <marker date="1518695288242" expanded="true" signature="156:4074" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="1321:1417" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="1512:1560" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="1656:1706" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="1818:1896" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="1916:3024" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="1922:1977" ph="/* Debug.Log(totalGameSeconds); ... */" />
-            <marker date="1518695288242" expanded="true" signature="2025:2080" ph="/* Debug.Log(totalGameSeconds); ... */" />
-            <marker date="1518695288242" expanded="true" signature="2353:2433" ph="/* Debug.Log(&quot;gs&quot;+gameSecond.ToString()); ... */" />
-            <marker date="1518695288242" expanded="true" signature="2583:2609" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="2632:2658" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="2729:2791" ph="/* Debug.Log(currentGameTime); ... */" />
-            <marker date="1518695288242" expanded="true" signature="2956:2982" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="3047:3501" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="3329:3498" ph="/* rw.GetComponent&lt;RainWidget&gt;().inputfile = inputfile; ... */" />
-            <marker date="1518695288242" expanded="true" signature="3549:3736" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="3789:4072" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="3804:4069" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="3952:4065" ph="{...}" />
+            <marker date="1521573713068" expanded="false" signature="6:114" ph="..." />
+            <marker date="1521573713068" expanded="true" signature="156:4074" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="1321:1417" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="1512:1560" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="1656:1706" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="1818:1896" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="1916:3024" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="1922:1977" ph="/* Debug.Log(totalGameSeconds); ... */" />
+            <marker date="1521573713068" expanded="true" signature="2025:2080" ph="/* Debug.Log(totalGameSeconds); ... */" />
+            <marker date="1521573713068" expanded="true" signature="2353:2433" ph="/* Debug.Log(&quot;gs&quot;+gameSecond.ToString()); ... */" />
+            <marker date="1521573713068" expanded="true" signature="2583:2609" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="2632:2658" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="2729:2791" ph="/* Debug.Log(currentGameTime); ... */" />
+            <marker date="1521573713068" expanded="true" signature="2956:2982" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="3047:3501" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="3329:3498" ph="/* rw.GetComponent&lt;RainWidget&gt;().inputfile = inputfile; ... */" />
+            <marker date="1521573713068" expanded="true" signature="3549:3736" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="3789:4072" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="3804:4069" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="3952:4065" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -320,26 +412,26 @@
         <state relative-caret-position="810">
           <caret line="118" column="42" lean-forward="false" selection-start-line="118" selection-start-column="42" selection-end-line="118" selection-end-column="42" />
           <folding>
-            <marker date="1518695288308" expanded="false" signature="6:161" ph="..." />
-            <marker date="1518695288308" expanded="true" signature="203:5041" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="1224:2727" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="1517:1645" ph="/* Debug.Log(Convert.ToString(avgSpeed)); ... */" />
-            <marker date="1518695288308" expanded="true" signature="1685:1940" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="1847:1936" ph="/* Debug.Log(Convert.ToSingle(pointList[i][&quot;wind speed&quot;])+1.2f); ... */" />
-            <marker date="1518695288308" expanded="true" signature="1943:2053" ph="/* Debug.Log(sumDirections); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2101:2230" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2252:2356" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2399:2484" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2567:2640" ph="/* Debug.Log(avgDirection); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2776:3332" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="2843:3307" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="3153:3194" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="3216:3235" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="3260:3303" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="3382:4479" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="4507:4786" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="4840:5039" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="4955:5036" ph="{...}" />
+            <marker date="1518469620421" expanded="false" signature="6:161" ph="..." />
+            <marker date="1518469620421" expanded="true" signature="203:5041" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="1224:2727" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="1517:1645" ph="/* Debug.Log(Convert.ToString(avgSpeed)); ... */" />
+            <marker date="1518469620421" expanded="true" signature="1685:1940" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="1847:1936" ph="/* Debug.Log(Convert.ToSingle(pointList[i][&quot;wind speed&quot;])+1.2f); ... */" />
+            <marker date="1518469620421" expanded="true" signature="1943:2053" ph="/* Debug.Log(sumDirections); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2101:2230" ph="/* Debug.Log(avgDir); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2252:2356" ph="/* Debug.Log(avgDir); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2399:2484" ph="/* Debug.Log(avgDir); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2567:2640" ph="/* Debug.Log(avgDirection); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2776:3332" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="2843:3307" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="3153:3194" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="3216:3235" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="3260:3303" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="3382:4479" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="4507:4786" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="4840:5039" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="4955:5036" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -348,7 +440,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="52" column="38" lean-forward="false" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
-          <folding />
+          <folding>
+            <marker date="1521576642481" expanded="false" signature="6:177" ph="..." />
+            <marker date="1521576642481" expanded="true" signature="219:4505" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="1678:2596" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="1900:2103" ph="/* Round off rainDepth ... */" />
+            <marker date="1521576642481" expanded="true" signature="2179:2249" ph="/* check to see if it is raining ... */" />
+            <marker date="1521576642481" expanded="true" signature="2410:2593" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="2645:3437" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="2748:3407" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="2936:3068" ph="/* DateTime it = DateTime.ParseExact(&quot;0:01:26&quot;, &quot;H:mm:ss&quot;, System.Globalization.CultureInfo.CurrentCulture); ... */" />
+            <marker date="1521576642481" expanded="true" signature="3243:3289" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="3311:3330" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="3355:3403" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="3493:3935" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="3612:3706" ph="/* Debug.Log(pointList[1][&quot;time&quot;]); ... */" />
+            <marker date="1521576642481" expanded="true" signature="3803:3861" ph="/* get most recent data ... */" />
+            <marker date="1521576642481" expanded="true" signature="3964:4242" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="4027:4074" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="4081:4131" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="4304:4503" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="4419:4500" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -356,7 +469,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="69" column="49" lean-forward="false" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="49" />
-          <folding />
+          <folding>
+            <marker date="1518467001212" expanded="false" signature="6:180" ph="..." />
+            <marker date="1518467001212" expanded="true" signature="222:3441" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="1348:1675" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="1488:1510" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="1574:1596" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="1723:2279" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="1790:2254" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="2100:2141" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="2163:2182" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="2207:2250" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="2329:3023" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="2985:3020" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="3051:3176" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="3230:3439" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="3355:3436" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -365,26 +494,26 @@
         <state relative-caret-position="825">
           <caret line="55" column="35" lean-forward="false" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
           <folding>
-            <marker date="1518695288242" expanded="false" signature="6:114" ph="..." />
-            <marker date="1518695288242" expanded="true" signature="156:4074" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="1321:1417" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="1512:1560" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="1656:1706" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="1818:1896" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="1916:3024" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="1922:1977" ph="/* Debug.Log(totalGameSeconds); ... */" />
-            <marker date="1518695288242" expanded="true" signature="2025:2080" ph="/* Debug.Log(totalGameSeconds); ... */" />
-            <marker date="1518695288242" expanded="true" signature="2353:2433" ph="/* Debug.Log(&quot;gs&quot;+gameSecond.ToString()); ... */" />
-            <marker date="1518695288242" expanded="true" signature="2583:2609" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="2632:2658" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="2729:2791" ph="/* Debug.Log(currentGameTime); ... */" />
-            <marker date="1518695288242" expanded="true" signature="2956:2982" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="3047:3501" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="3329:3498" ph="/* rw.GetComponent&lt;RainWidget&gt;().inputfile = inputfile; ... */" />
-            <marker date="1518695288242" expanded="true" signature="3549:3736" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="3789:4072" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="3804:4069" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="3952:4065" ph="{...}" />
+            <marker date="1521573713068" expanded="false" signature="6:114" ph="..." />
+            <marker date="1521573713068" expanded="true" signature="156:4074" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="1321:1417" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="1512:1560" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="1656:1706" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="1818:1896" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="1916:3024" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="1922:1977" ph="/* Debug.Log(totalGameSeconds); ... */" />
+            <marker date="1521573713068" expanded="true" signature="2025:2080" ph="/* Debug.Log(totalGameSeconds); ... */" />
+            <marker date="1521573713068" expanded="true" signature="2353:2433" ph="/* Debug.Log(&quot;gs&quot;+gameSecond.ToString()); ... */" />
+            <marker date="1521573713068" expanded="true" signature="2583:2609" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="2632:2658" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="2729:2791" ph="/* Debug.Log(currentGameTime); ... */" />
+            <marker date="1521573713068" expanded="true" signature="2956:2982" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="3047:3501" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="3329:3498" ph="/* rw.GetComponent&lt;RainWidget&gt;().inputfile = inputfile; ... */" />
+            <marker date="1521573713068" expanded="true" signature="3549:3736" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="3789:4072" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="3804:4069" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="3952:4065" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -394,26 +523,26 @@
         <state relative-caret-position="1350">
           <caret line="90" column="54" lean-forward="false" selection-start-line="90" selection-start-column="54" selection-end-line="90" selection-end-column="54" />
           <folding>
-            <marker date="1518695288308" expanded="false" signature="6:161" ph="..." />
-            <marker date="1518695288308" expanded="true" signature="203:5041" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="1224:2727" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="1517:1645" ph="/* Debug.Log(Convert.ToString(avgSpeed)); ... */" />
-            <marker date="1518695288308" expanded="true" signature="1685:1940" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="1847:1936" ph="/* Debug.Log(Convert.ToSingle(pointList[i][&quot;wind speed&quot;])+1.2f); ... */" />
-            <marker date="1518695288308" expanded="true" signature="1943:2053" ph="/* Debug.Log(sumDirections); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2101:2230" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2252:2356" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2399:2484" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2567:2640" ph="/* Debug.Log(avgDirection); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2776:3332" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="2843:3307" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="3153:3194" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="3216:3235" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="3260:3303" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="3382:4479" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="4507:4786" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="4840:5039" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="4955:5036" ph="{...}" />
+            <marker date="1518469620421" expanded="false" signature="6:161" ph="..." />
+            <marker date="1518469620421" expanded="true" signature="203:5041" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="1224:2727" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="1517:1645" ph="/* Debug.Log(Convert.ToString(avgSpeed)); ... */" />
+            <marker date="1518469620421" expanded="true" signature="1685:1940" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="1847:1936" ph="/* Debug.Log(Convert.ToSingle(pointList[i][&quot;wind speed&quot;])+1.2f); ... */" />
+            <marker date="1518469620421" expanded="true" signature="1943:2053" ph="/* Debug.Log(sumDirections); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2101:2230" ph="/* Debug.Log(avgDir); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2252:2356" ph="/* Debug.Log(avgDir); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2399:2484" ph="/* Debug.Log(avgDir); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2567:2640" ph="/* Debug.Log(avgDirection); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2776:3332" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="2843:3307" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="3153:3194" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="3216:3235" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="3260:3303" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="3382:4479" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="4507:4786" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="4840:5039" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="4955:5036" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -422,7 +551,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1521576642481" expanded="false" signature="6:177" ph="..." />
+            <marker date="1521576642481" expanded="true" signature="219:4505" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="1678:2596" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="1900:2103" ph="/* Round off rainDepth ... */" />
+            <marker date="1521576642481" expanded="true" signature="2179:2249" ph="/* check to see if it is raining ... */" />
+            <marker date="1521576642481" expanded="true" signature="2410:2593" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="2645:3437" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="2748:3407" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="2936:3068" ph="/* DateTime it = DateTime.ParseExact(&quot;0:01:26&quot;, &quot;H:mm:ss&quot;, System.Globalization.CultureInfo.CurrentCulture); ... */" />
+            <marker date="1521576642481" expanded="true" signature="3243:3289" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="3311:3330" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="3355:3403" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="3493:3935" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="3612:3706" ph="/* Debug.Log(pointList[1][&quot;time&quot;]); ... */" />
+            <marker date="1521576642481" expanded="true" signature="3803:3861" ph="/* get most recent data ... */" />
+            <marker date="1521576642481" expanded="true" signature="3964:4242" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="4027:4074" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="4081:4131" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="4304:4503" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="4419:4500" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -437,7 +587,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1785">
           <caret line="125" column="8" lean-forward="true" selection-start-line="125" selection-start-column="8" selection-end-line="125" selection-end-column="8" />
-          <folding />
+          <folding>
+            <marker date="1518467001212" expanded="false" signature="6:180" ph="..." />
+            <marker date="1518467001212" expanded="true" signature="222:3441" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="1348:1675" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="1488:1510" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="1574:1596" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="1723:2279" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="1790:2254" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="2100:2141" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="2163:2182" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="2207:2250" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="2329:3023" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="2985:3020" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="3051:3176" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="3230:3439" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="3355:3436" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -446,26 +612,26 @@
         <state relative-caret-position="1350">
           <caret line="90" column="54" lean-forward="false" selection-start-line="90" selection-start-column="54" selection-end-line="90" selection-end-column="54" />
           <folding>
-            <marker date="1518695288308" expanded="false" signature="6:161" ph="..." />
-            <marker date="1518695288308" expanded="true" signature="203:5041" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="1224:2727" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="1517:1645" ph="/* Debug.Log(Convert.ToString(avgSpeed)); ... */" />
-            <marker date="1518695288308" expanded="true" signature="1685:1940" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="1847:1936" ph="/* Debug.Log(Convert.ToSingle(pointList[i][&quot;wind speed&quot;])+1.2f); ... */" />
-            <marker date="1518695288308" expanded="true" signature="1943:2053" ph="/* Debug.Log(sumDirections); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2101:2230" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2252:2356" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2399:2484" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2567:2640" ph="/* Debug.Log(avgDirection); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2776:3332" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="2843:3307" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="3153:3194" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="3216:3235" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="3260:3303" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="3382:4479" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="4507:4786" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="4840:5039" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="4955:5036" ph="{...}" />
+            <marker date="1518469620421" expanded="false" signature="6:161" ph="..." />
+            <marker date="1518469620421" expanded="true" signature="203:5041" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="1224:2727" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="1517:1645" ph="/* Debug.Log(Convert.ToString(avgSpeed)); ... */" />
+            <marker date="1518469620421" expanded="true" signature="1685:1940" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="1847:1936" ph="/* Debug.Log(Convert.ToSingle(pointList[i][&quot;wind speed&quot;])+1.2f); ... */" />
+            <marker date="1518469620421" expanded="true" signature="1943:2053" ph="/* Debug.Log(sumDirections); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2101:2230" ph="/* Debug.Log(avgDir); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2252:2356" ph="/* Debug.Log(avgDir); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2399:2484" ph="/* Debug.Log(avgDir); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2567:2640" ph="/* Debug.Log(avgDirection); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2776:3332" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="2843:3307" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="3153:3194" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="3216:3235" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="3260:3303" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="3382:4479" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="4507:4786" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="4840:5039" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="4955:5036" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -474,7 +640,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1521576642481" expanded="false" signature="6:177" ph="..." />
+            <marker date="1521576642481" expanded="true" signature="219:4505" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="1678:2596" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="1900:2103" ph="/* Round off rainDepth ... */" />
+            <marker date="1521576642481" expanded="true" signature="2179:2249" ph="/* check to see if it is raining ... */" />
+            <marker date="1521576642481" expanded="true" signature="2410:2593" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="2645:3437" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="2748:3407" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="2936:3068" ph="/* DateTime it = DateTime.ParseExact(&quot;0:01:26&quot;, &quot;H:mm:ss&quot;, System.Globalization.CultureInfo.CurrentCulture); ... */" />
+            <marker date="1521576642481" expanded="true" signature="3243:3289" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="3311:3330" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="3355:3403" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="3493:3935" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="3612:3706" ph="/* Debug.Log(pointList[1][&quot;time&quot;]); ... */" />
+            <marker date="1521576642481" expanded="true" signature="3803:3861" ph="/* get most recent data ... */" />
+            <marker date="1521576642481" expanded="true" signature="3964:4242" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="4027:4074" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="4081:4131" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="4304:4503" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="4419:4500" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -489,7 +676,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1785">
           <caret line="125" column="88" lean-forward="false" selection-start-line="125" selection-start-column="88" selection-end-line="125" selection-end-column="88" />
-          <folding />
+          <folding>
+            <marker date="1518467001212" expanded="false" signature="6:180" ph="..." />
+            <marker date="1518467001212" expanded="true" signature="222:3441" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="1348:1675" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="1488:1510" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="1574:1596" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="1723:2279" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="1790:2254" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="2100:2141" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="2163:2182" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="2207:2250" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="2329:3023" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="2985:3020" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="3051:3176" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="3230:3439" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="3355:3436" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -498,26 +701,26 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1518695288308" expanded="false" signature="6:161" ph="..." />
-            <marker date="1518695288308" expanded="true" signature="203:5041" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="1224:2727" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="1517:1645" ph="/* Debug.Log(Convert.ToString(avgSpeed)); ... */" />
-            <marker date="1518695288308" expanded="true" signature="1685:1940" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="1847:1936" ph="/* Debug.Log(Convert.ToSingle(pointList[i][&quot;wind speed&quot;])+1.2f); ... */" />
-            <marker date="1518695288308" expanded="true" signature="1943:2053" ph="/* Debug.Log(sumDirections); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2101:2230" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2252:2356" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2399:2484" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2567:2640" ph="/* Debug.Log(avgDirection); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2776:3332" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="2843:3307" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="3153:3194" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="3216:3235" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="3260:3303" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="3382:4479" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="4507:4786" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="4840:5039" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="4955:5036" ph="{...}" />
+            <marker date="1518469620421" expanded="false" signature="6:161" ph="..." />
+            <marker date="1518469620421" expanded="true" signature="203:5041" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="1224:2727" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="1517:1645" ph="/* Debug.Log(Convert.ToString(avgSpeed)); ... */" />
+            <marker date="1518469620421" expanded="true" signature="1685:1940" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="1847:1936" ph="/* Debug.Log(Convert.ToSingle(pointList[i][&quot;wind speed&quot;])+1.2f); ... */" />
+            <marker date="1518469620421" expanded="true" signature="1943:2053" ph="/* Debug.Log(sumDirections); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2101:2230" ph="/* Debug.Log(avgDir); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2252:2356" ph="/* Debug.Log(avgDir); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2399:2484" ph="/* Debug.Log(avgDir); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2567:2640" ph="/* Debug.Log(avgDirection); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2776:3332" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="2843:3307" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="3153:3194" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="3216:3235" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="3260:3303" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="3382:4479" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="4507:4786" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="4840:5039" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="4955:5036" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -535,26 +738,26 @@
         <state relative-caret-position="1050">
           <caret line="70" column="49" lean-forward="false" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
           <folding>
-            <marker date="1518695288308" expanded="false" signature="6:161" ph="..." />
-            <marker date="1518695288308" expanded="true" signature="203:5041" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="1224:2727" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="1517:1645" ph="/* Debug.Log(Convert.ToString(avgSpeed)); ... */" />
-            <marker date="1518695288308" expanded="true" signature="1685:1940" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="1847:1936" ph="/* Debug.Log(Convert.ToSingle(pointList[i][&quot;wind speed&quot;])+1.2f); ... */" />
-            <marker date="1518695288308" expanded="true" signature="1943:2053" ph="/* Debug.Log(sumDirections); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2101:2230" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2252:2356" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2399:2484" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2567:2640" ph="/* Debug.Log(avgDirection); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2776:3332" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="2843:3307" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="3153:3194" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="3216:3235" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="3260:3303" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="3382:4479" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="4507:4786" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="4840:5039" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="4955:5036" ph="{...}" />
+            <marker date="1518469620421" expanded="false" signature="6:161" ph="..." />
+            <marker date="1518469620421" expanded="true" signature="203:5041" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="1224:2727" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="1517:1645" ph="/* Debug.Log(Convert.ToString(avgSpeed)); ... */" />
+            <marker date="1518469620421" expanded="true" signature="1685:1940" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="1847:1936" ph="/* Debug.Log(Convert.ToSingle(pointList[i][&quot;wind speed&quot;])+1.2f); ... */" />
+            <marker date="1518469620421" expanded="true" signature="1943:2053" ph="/* Debug.Log(sumDirections); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2101:2230" ph="/* Debug.Log(avgDir); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2252:2356" ph="/* Debug.Log(avgDir); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2399:2484" ph="/* Debug.Log(avgDir); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2567:2640" ph="/* Debug.Log(avgDirection); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2776:3332" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="2843:3307" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="3153:3194" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="3216:3235" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="3260:3303" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="3382:4479" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="4507:4786" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="4840:5039" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="4955:5036" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -578,26 +781,26 @@
         <state relative-caret-position="810">
           <caret line="57" column="35" lean-forward="false" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
           <folding>
-            <marker date="1518695288308" expanded="false" signature="6:161" ph="..." />
-            <marker date="1518695288308" expanded="true" signature="203:5041" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="1224:2727" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="1517:1645" ph="/* Debug.Log(Convert.ToString(avgSpeed)); ... */" />
-            <marker date="1518695288308" expanded="true" signature="1685:1940" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="1847:1936" ph="/* Debug.Log(Convert.ToSingle(pointList[i][&quot;wind speed&quot;])+1.2f); ... */" />
-            <marker date="1518695288308" expanded="true" signature="1943:2053" ph="/* Debug.Log(sumDirections); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2101:2230" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2252:2356" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2399:2484" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2567:2640" ph="/* Debug.Log(avgDirection); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2776:3332" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="2843:3307" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="3153:3194" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="3216:3235" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="3260:3303" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="3382:4479" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="4507:4786" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="4840:5039" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="4955:5036" ph="{...}" />
+            <marker date="1518469620421" expanded="false" signature="6:161" ph="..." />
+            <marker date="1518469620421" expanded="true" signature="203:5041" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="1224:2727" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="1517:1645" ph="/* Debug.Log(Convert.ToString(avgSpeed)); ... */" />
+            <marker date="1518469620421" expanded="true" signature="1685:1940" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="1847:1936" ph="/* Debug.Log(Convert.ToSingle(pointList[i][&quot;wind speed&quot;])+1.2f); ... */" />
+            <marker date="1518469620421" expanded="true" signature="1943:2053" ph="/* Debug.Log(sumDirections); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2101:2230" ph="/* Debug.Log(avgDir); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2252:2356" ph="/* Debug.Log(avgDir); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2399:2484" ph="/* Debug.Log(avgDir); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2567:2640" ph="/* Debug.Log(avgDirection); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2776:3332" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="2843:3307" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="3153:3194" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="3216:3235" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="3260:3303" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="3382:4479" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="4507:4786" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="4840:5039" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="4955:5036" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -621,26 +824,26 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1518695288308" expanded="false" signature="6:161" ph="..." />
-            <marker date="1518695288308" expanded="true" signature="203:5041" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="1224:2727" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="1517:1645" ph="/* Debug.Log(Convert.ToString(avgSpeed)); ... */" />
-            <marker date="1518695288308" expanded="true" signature="1685:1940" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="1847:1936" ph="/* Debug.Log(Convert.ToSingle(pointList[i][&quot;wind speed&quot;])+1.2f); ... */" />
-            <marker date="1518695288308" expanded="true" signature="1943:2053" ph="/* Debug.Log(sumDirections); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2101:2230" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2252:2356" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2399:2484" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2567:2640" ph="/* Debug.Log(avgDirection); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2776:3332" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="2843:3307" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="3153:3194" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="3216:3235" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="3260:3303" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="3382:4479" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="4507:4786" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="4840:5039" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="4955:5036" ph="{...}" />
+            <marker date="1518469620421" expanded="false" signature="6:161" ph="..." />
+            <marker date="1518469620421" expanded="true" signature="203:5041" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="1224:2727" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="1517:1645" ph="/* Debug.Log(Convert.ToString(avgSpeed)); ... */" />
+            <marker date="1518469620421" expanded="true" signature="1685:1940" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="1847:1936" ph="/* Debug.Log(Convert.ToSingle(pointList[i][&quot;wind speed&quot;])+1.2f); ... */" />
+            <marker date="1518469620421" expanded="true" signature="1943:2053" ph="/* Debug.Log(sumDirections); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2101:2230" ph="/* Debug.Log(avgDir); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2252:2356" ph="/* Debug.Log(avgDir); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2399:2484" ph="/* Debug.Log(avgDir); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2567:2640" ph="/* Debug.Log(avgDirection); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2776:3332" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="2843:3307" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="3153:3194" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="3216:3235" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="3260:3303" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="3382:4479" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="4507:4786" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="4840:5039" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="4955:5036" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -788,83 +991,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CSVReader.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="34" column="46" lean-forward="false" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/TempWidget.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1545">
+        <state relative-caret-position="69">
           <caret line="103" column="8" lean-forward="false" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RainWidget.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2160">
-          <caret line="149" column="5" lean-forward="false" selection-start-line="149" selection-start-column="5" selection-end-line="149" selection-end-column="5" />
-          <folding />
+          <folding>
+            <marker date="1518467001212" expanded="false" signature="6:180" ph="..." />
+            <marker date="1518467001212" expanded="true" signature="222:3441" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="1348:1675" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="1488:1510" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="1574:1596" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="1723:2279" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="1790:2254" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="2100:2141" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="2163:2182" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="2207:2250" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="2329:3023" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="2985:3020" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="3051:3176" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="3230:3439" ph="{...}" />
+            <marker date="1518467001212" expanded="true" signature="3355:3436" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/WindWidget.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2520">
-          <caret line="174" column="50" lean-forward="false" selection-start-line="174" selection-start-column="44" selection-end-line="174" selection-end-column="50" />
+        <state relative-caret-position="180">
+          <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
           <folding>
-            <marker date="1518695288308" expanded="false" signature="6:161" ph="..." />
-            <marker date="1518695288308" expanded="true" signature="203:5041" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="1224:2727" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="1517:1645" ph="/* Debug.Log(Convert.ToString(avgSpeed)); ... */" />
-            <marker date="1518695288308" expanded="true" signature="1685:1940" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="1847:1936" ph="/* Debug.Log(Convert.ToSingle(pointList[i][&quot;wind speed&quot;])+1.2f); ... */" />
-            <marker date="1518695288308" expanded="true" signature="1943:2053" ph="/* Debug.Log(sumDirections); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2101:2230" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2252:2356" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2399:2484" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2567:2640" ph="/* Debug.Log(avgDirection); ... */" />
-            <marker date="1518695288308" expanded="true" signature="2776:3332" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="2843:3307" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="3153:3194" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="3216:3235" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="3260:3303" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="3382:4479" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="4507:4786" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="4840:5039" ph="{...}" />
-            <marker date="1518695288308" expanded="true" signature="4955:5036" ph="{...}" />
+            <marker date="1518469620421" expanded="false" signature="6:161" ph="..." />
+            <marker date="1518469620421" expanded="true" signature="203:5041" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="1224:2727" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="1517:1645" ph="/* Debug.Log(Convert.ToString(avgSpeed)); ... */" />
+            <marker date="1518469620421" expanded="true" signature="1685:1940" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="1847:1936" ph="/* Debug.Log(Convert.ToSingle(pointList[i][&quot;wind speed&quot;])+1.2f); ... */" />
+            <marker date="1518469620421" expanded="true" signature="1943:2053" ph="/* Debug.Log(sumDirections); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2101:2230" ph="/* Debug.Log(avgDir); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2252:2356" ph="/* Debug.Log(avgDir); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2399:2484" ph="/* Debug.Log(avgDir); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2567:2640" ph="/* Debug.Log(avgDirection); ... */" />
+            <marker date="1518469620421" expanded="true" signature="2776:3332" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="2843:3307" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="3153:3194" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="3216:3235" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="3260:3303" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="3382:4479" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="4507:4786" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="4840:5039" ph="{...}" />
+            <marker date="1518469620421" expanded="true" signature="4955:5036" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CSVReader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <marker date="1515180422000" expanded="false" signature="6:130" ph="..." />
+            <marker date="1515180422000" expanded="true" signature="132:355" ph="/* Taken from here: https://bravenewmethod.com/2014/09/13/lightweight-csv-reader-for-unity ... */" />
+            <marker date="1515180422000" expanded="true" signature="379:2897" ph="{...}" />
+            <marker date="1515180422000" expanded="true" signature="743:2895" ph="{...}" />
+            <marker date="1515180422000" expanded="true" signature="1520:2854" ph="{...}" />
+            <marker date="1515180422000" expanded="true" signature="2009:2770" ph="{...}" />
+            <marker date="1515180422000" expanded="true" signature="2510:2582" ph="{...}" />
+            <marker date="1515180422000" expanded="true" signature="2637:2709" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ClockWidget.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="106" column="26" lean-forward="true" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="26" />
+        <state relative-caret-position="168">
+          <caret line="106" column="51" lean-forward="false" selection-start-line="106" selection-start-column="51" selection-end-line="106" selection-end-column="51" />
           <folding>
-            <marker date="1518695288242" expanded="false" signature="6:114" ph="..." />
-            <marker date="1518695288242" expanded="true" signature="156:4074" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="1321:1417" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="1512:1560" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="1656:1706" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="1818:1896" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="1916:3024" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="1922:1977" ph="/* Debug.Log(totalGameSeconds); ... */" />
-            <marker date="1518695288242" expanded="true" signature="2025:2080" ph="/* Debug.Log(totalGameSeconds); ... */" />
-            <marker date="1518695288242" expanded="true" signature="2353:2433" ph="/* Debug.Log(&quot;gs&quot;+gameSecond.ToString()); ... */" />
-            <marker date="1518695288242" expanded="true" signature="2583:2609" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="2632:2658" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="2729:2791" ph="/* Debug.Log(currentGameTime); ... */" />
-            <marker date="1518695288242" expanded="true" signature="2956:2982" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="3047:3501" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="3329:3498" ph="/* rw.GetComponent&lt;RainWidget&gt;().inputfile = inputfile; ... */" />
-            <marker date="1518695288242" expanded="true" signature="3549:3736" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="3789:4072" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="3804:4069" ph="{...}" />
-            <marker date="1518695288242" expanded="true" signature="3952:4065" ph="{...}" />
+            <marker date="1521573713068" expanded="false" signature="6:114" ph="..." />
+            <marker date="1521573713068" expanded="true" signature="156:4074" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="1321:1417" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="1512:1560" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="1656:1706" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="1818:1896" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="1916:3024" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="1922:1977" ph="/* Debug.Log(totalGameSeconds); ... */" />
+            <marker date="1521573713068" expanded="true" signature="2025:2080" ph="/* Debug.Log(totalGameSeconds); ... */" />
+            <marker date="1521573713068" expanded="true" signature="2353:2433" ph="/* Debug.Log(&quot;gs&quot;+gameSecond.ToString()); ... */" />
+            <marker date="1521573713068" expanded="true" signature="2583:2609" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="2632:2658" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="2729:2791" ph="/* Debug.Log(currentGameTime); ... */" />
+            <marker date="1521573713068" expanded="true" signature="2956:2982" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="3047:3501" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="3329:3498" ph="/* rw.GetComponent&lt;RainWidget&gt;().inputfile = inputfile; ... */" />
+            <marker date="1521573713068" expanded="true" signature="3549:3736" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="3789:4072" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="3804:4069" ph="{...}" />
+            <marker date="1521573713068" expanded="true" signature="3952:4065" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RainWidget.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="128" column="29" lean-forward="true" selection-start-line="128" selection-start-column="29" selection-end-line="128" selection-end-column="29" />
+          <folding>
+            <marker date="1521576642481" expanded="false" signature="6:177" ph="..." />
+            <marker date="1521576642481" expanded="true" signature="219:4505" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="1678:2596" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="1900:2103" ph="/* Round off rainDepth ... */" />
+            <marker date="1521576642481" expanded="true" signature="2179:2249" ph="/* check to see if it is raining ... */" />
+            <marker date="1521576642481" expanded="true" signature="2410:2593" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="2645:3437" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="2748:3407" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="2936:3068" ph="/* DateTime it = DateTime.ParseExact(&quot;0:01:26&quot;, &quot;H:mm:ss&quot;, System.Globalization.CultureInfo.CurrentCulture); ... */" />
+            <marker date="1521576642481" expanded="true" signature="3243:3289" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="3311:3330" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="3355:3403" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="3493:3935" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="3612:3706" ph="/* Debug.Log(pointList[1][&quot;time&quot;]); ... */" />
+            <marker date="1521576642481" expanded="true" signature="3803:3861" ph="/* get most recent data ... */" />
+            <marker date="1521576642481" expanded="true" signature="3964:4242" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="4027:4074" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="4081:4131" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="4304:4503" ph="{...}" />
+            <marker date="1521576642481" expanded="true" signature="4419:4500" ph="{...}" />
           </folding>
         </state>
       </provider>

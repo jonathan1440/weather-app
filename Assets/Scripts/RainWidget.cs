@@ -83,17 +83,21 @@ public class RainWidget : MonoBehaviour {
 	
 	private int getMostRecentData(string curTime)
 	{
-		int mostRecent = 0;
+		//Debug.Log("gmrd started");
+		int indexMostRecent = 0;
 		
 		for(int i = 0; i < pointList.Count;)
 		{
+			//Debug.Log(pointList[i]["time"].ToString());
 			DateTime it = DateTime.ParseExact(pointList[i]["time"].ToString(), "H:mm:ss", System.Globalization.CultureInfo.CurrentCulture);
+			//DateTime it = DateTime.ParseExact("0:01:26", "H:mm:ss", System.Globalization.CultureInfo.CurrentCulture);
+			//Debug.Log("**"+it);
 			DateTime t = DateTime.ParseExact(curTime, "H:mm:ss", System.Globalization.CultureInfo.CurrentCulture);
 			int compared = DateTime.Compare(it, t);
 			
 			if (compared == 0)
 			{
-				mostRecent = i;
+				indexMostRecent = i;
 				break;
 			}
 
@@ -104,12 +108,12 @@ public class RainWidget : MonoBehaviour {
 			
 			if (compared > 0)
 			{
-				mostRecent = i-1;
+				indexMostRecent = i-1;
 				break;
 			}
 		}
 
-		return mostRecent;
+		return indexMostRecent;
 	}
 
 	// Use this for initialization
@@ -117,7 +121,7 @@ public class RainWidget : MonoBehaviour {
 	{
 		//Set pointlist to results of function Reader with argument inputfile
 		pointList = CSVReader.Read(inputfile);
-		
+		//Debug.Log(pointList[1]["time"]);
 		//set default messages in case something below goes wrong
 		isRainingTextMsg.text = notRainingMsg;
 		
@@ -125,6 +129,7 @@ public class RainWidget : MonoBehaviour {
 		oldCurTime = curTime;
 		
 		//get most recent data
+		//Debug.Log("reached gmrd call");
 		mostRecent = getMostRecentData(curTime);
 		
 		updateRainConstants();
