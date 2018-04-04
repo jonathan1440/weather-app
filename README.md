@@ -20,8 +20,8 @@ Unity 2017.3 with support for:
 - Vuforia Augmented REality Support
 - WebGL Build
 
-**V1.0:**
-https://github.com/jonathan1440/weather-app/commit/7a07cb2fae4db602364b313d573d47327f7c26a7
+**V1.5:**
+https://github.com/jonathan1440/weather-app/commit/c225075fb77f7a57a3d762538f072e52a89d6418
 
 It displays current weather conditions and does some basic calculations based on preceeding weather.
 
