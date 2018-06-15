@@ -1,6 +1,9 @@
 # weather-app
 
-The goal is to create a Unity web app showing weather data from my house for my senior project.
+The goal is to create a Unity web app showing weather data from my house for my senior project. To run the app, download the following to the same directory, and then run the .exe file:
+- weather-data-build_Data
+- UnityPlayer.dll
+- weather-view-build.exe
 
 This repoistory explains how I'm getting the weather data: https://github.com/jonathan1440/Get-Weather-Data
 
