@@ -5,7 +5,7 @@ The goal is to create a Unity web app showing weather data from my house for my 
 - UnityPlayer.dll
 - weather-view-build.exe
 
-This repoistory explains how I'm getting the weather data: https://github.com/jonathan1440/Get-Weather-Data
+This repoistory explains how I collected the weather data I use in this simulation: https://github.com/jonathan1440/Get-Weather-Data
 
 **Using:**
 
@@ -16,12 +16,8 @@ Unity 2017.3 with support for:
 - Documentation
 - Standard Assets
 - Android Build
-- iOS Build
-- Linux build
 - Windows Store .NET Scripting Backend
-- Windows Store IL2CPP Scripting Backend
 - Vuforia Augmented REality Support
-- WebGL Build
 
 **V1.5:**
 https://github.com/jonathan1440/weather-app/commit/c225075fb77f7a57a3d762538f072e52a89d6418
@@ -42,7 +38,7 @@ It displays:
 - current date (in simulation)
 
 **V2.0, WIP:**
-I used the following tutorial to start me off on creating a scatterplot.
+I used the following tutorial to start me off on creating a scatterplot:
 https://sites.psu.edu/bdssblog/2017/04/06/basic-data-visualization-in-unity-scatterplot-creation/
 
 To-do:
