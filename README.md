@@ -9,9 +9,7 @@ Everything in this project is my own creation except for the standard asset pack
 
 This repoistory explains how I'm getting the weather data: https://github.com/jonathan1440/Get-Weather-Data
 
-=======
 This repoistory explains how I collected the weather data I use in this simulation: https://github.com/jonathan1440/Get-Weather-Data
->>>>>>> b85a944a183bbf81fc936c66f2f0b125b6f6ff4e
 
 **Using:**
 
