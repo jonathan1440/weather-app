@@ -33,7 +33,7 @@ public class TempWidget : MonoBehaviour {
 	[Tooltip("Default message for low temp")]
 	public string defaultLowTemp;
 	
-	//store most recent data
+	//store most recent data index
 	private int mostRecent;
 	//store high temp
 	[Tooltip("High temp")]
@@ -48,7 +48,7 @@ public class TempWidget : MonoBehaviour {
 	//store old curTime, to check if the mostRecent data needs to be updated
 	private string oldCurTime;
 
-	private void updateTempConstants(int i)
+	private void updateTempData(int i)
 	{
 		float ttc = Convert.ToSingle(pointList[i]["temperature"].ToString());
 			
@@ -111,7 +111,7 @@ public class TempWidget : MonoBehaviour {
 
 		mostRecent = 0;
 		
-		//get up to date
+		//get data up to date
 		max = Convert.ToSingle(pointList[0]["temperature"]);
 		min = Convert.ToSingle(pointList[0]["temperature"]);
 		currentTemp = Convert.ToSingle(pointList[0]["temperature"]);
@@ -124,7 +124,7 @@ public class TempWidget : MonoBehaviour {
 		
 		for(int i = 0; i < mostRecent; i ++)
 		{
-			updateTempConstants(i);
+			updateTempData(i);
 		}
 	}
 
@@ -140,7 +140,7 @@ public class TempWidget : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
 	{
-		updateTempConstants(mostRecent);
+		updateTempData(mostRecent);
 		
 		updateText();
 

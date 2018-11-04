@@ -5,6 +5,8 @@ The goal is to create a Unity web app showing weather data from my house for my 
 - UnityPlayer.dll
 - weather-view-build.exe
 
+Everything in this project is my own creation except for the standard asset package from Unity and the CSVReader.cs file that I got from https://bravenewmethod.com/2014/09/13/lightweight-csv-reader-for-unity/
+
 This repoistory explains how I'm getting the weather data: https://github.com/jonathan1440/Get-Weather-Data
 
 **Using:**
@@ -16,12 +18,8 @@ Unity 2017.3 with support for:
 - Documentation
 - Standard Assets
 - Android Build
-- iOS Build
-- Linux build
 - Windows Store .NET Scripting Backend
-- Windows Store IL2CPP Scripting Backend
 - Vuforia Augmented REality Support
-- WebGL Build
 
 **V1.5:**
 https://github.com/jonathan1440/weather-app/commit/c225075fb77f7a57a3d762538f072e52a89d6418

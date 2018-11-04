@@ -4,6 +4,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/*
+ * This is essentially a top level script because all the others rely on this one to provide the simulation time
+ */
+
+
 public class ClockWidget : MonoBehaviour
 {
 	[Tooltip("data file, without extension")]
@@ -20,7 +25,7 @@ public class ClockWidget : MonoBehaviour
 	public int secondsPerUpdate;
 	
 	//time rate of change
-	[Tooltip("seconds to elapse per frame")]
+	[Tooltip("seconds (in simulation time) to elapse per frame")]
 	public float troc;
 
 	//should time change or not?
@@ -40,7 +45,7 @@ public class ClockWidget : MonoBehaviour
 	private float previousGameSeconds;
 	public string currentGameTime;
 
-	//GameObjects that need to access the current game time. This is REALLY BAD PRACTICE but I'm on a time crunch
+	//GameObjects that need to access the current game time. This is bad practice but I'm on a time crunch
 	public GameObject rw;
 	public GameObject ww;
 	public GameObject tw;
@@ -52,7 +57,6 @@ public class ClockWidget : MonoBehaviour
 	public void updateROC(float newValue)
 	{
 		troc = Mathf.Round(newValue * newValue * 10) / 10f;
-		//Debug.Log(newValue * newValue);
 	}
 
 	//used by start hour slider to update startHour
@@ -75,71 +79,67 @@ public class ClockWidget : MonoBehaviour
 
 	void updateTime()
 	{
-		//Debug.Log(totalGameSeconds);
 		//update total seconds
 		totalGameSeconds += troc * Time.deltaTime;
-		//Debug.Log(totalGameSeconds);
 
-		//convert it to h:m:s
+		//calculate h/m/s from total game seconds
 		gameHour = Mathf.FloorToInt(totalGameSeconds / 3600);
-		//Debug.Log("gh"+gameHour.ToString());
 		gameMinute = Mathf.FloorToInt((totalGameSeconds % 3600) / 60);
-		//Debug.Log("gm"+gameMinute.ToString());
 		gameSecond = Mathf.FloorToInt((totalGameSeconds % 3600) % 60);
-		//Debug.Log("gs"+gameSecond.ToString());
 
 		//create string of current game time
 		string gh = gameHour.ToString();
 		string gm = gameMinute.ToString();
 		string gs = gameSecond.ToString();
-		//Debug.Log(gs);
+		
 		if (gm.Length == 1)
 		{
 			gm = "0" + gm;
 		}
-
 		if (gs.Length == 1)
 		{
 			gs = "0" + gs;
 		}
-		//Debug.Log(gs);
 		
 		currentGameTime = gh + ":" + gm + ":" + gs;
-		//Debug.Log(currentGameTime);
 		
 		//display current game time
 		displayTime.text = currentGameTime;
-
+		//display current time rate of change
 		rocText.text = "x" + troc;
 
+		
 		string sh = startHour.ToString();
 		string sm = startMinute.ToString();
 		if (sm.Length == 1)
 		{
 			sm = "0" + sm;
 		}
-
+		
+		//display current start time
 		StartTimeText.text = sh + ":" + sm;
 	}
 
 	void updateWidgets()
 	{
-		//REALLY BAD PRACTICE:
+		//update current time for other widgets that need it
+		//this is bad practice. It should be generalized, but I'm on a time crunch
 		rw.GetComponent<RainWidget>().curTime = currentGameTime;
 		ww.GetComponent<WindWidget>().curTime = currentGameTime;
 		tw.GetComponent<TempWidget>().curTime = currentGameTime;
-				
+		
 		rw.GetComponent<RainWidget>().secondsPerUpdate = secondsPerUpdate;
 		/*
 		rw.GetComponent<RainWidget>().inputfile = inputfile;
 		ww.GetComponent<WindWidget>().inputfile = inputfile;
-		tw.GetComponent<TempWidget>().inputfile = inputfile;*/
+		tw.GetComponent<TempWidget>().inputfile = inputfile;
+		*/
 	}
 
 	// Use this for initialization
 	void Start ()
 	{
-		//get start seconds
+		//set start seconds
 		totalGameSeconds += startHour * 3600 + startMinute * 60 + startSecond;
 		
 		previousGameSeconds = totalGameSeconds;
@@ -154,14 +154,11 @@ public class ClockWidget : MonoBehaviour
 	{
 		if (play)
 		{
-
 			updateTime();
-			//Debug.Log("time calculated");
 			
 			if (true)//Math.Abs(previousGameSeconds + secondsPerUpdate - totalGameSeconds) < 0)
 			{
 				updateWidgets();
-				//Debug.Log("time updated");
 				
 				previousGameSeconds = totalGameSeconds;
 			}

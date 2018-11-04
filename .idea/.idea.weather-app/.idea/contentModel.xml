@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\jonathan.ziesmer\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_weather-app.1889947213.00" t="ExcludeRecursive" />
-    <e p="C:\Users\jonathan.ziesmer\Desktop\weather-app" t="IncludeRecursive">
+    <e p="C:\Users\jonat\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\jonat\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_weather-app.1970214037.00" t="ExcludeRecursive" />
+    <e p="D:\GitHub\weather-app" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="building-a-graph-content" t="Include">
           <e p="Graph.cs" t="Include" />
-        </e>
-        <e p="Plugins" t="Include">
-          <e p="Editor" t="Include">
-            <e p="JetBrains" t="Include">
-              <e p="Unity3DRider.cs" t="Include" />
-            </e>
-          </e>
         </e>
         <e p="Scripts" t="Include">
           <e p="ClockWidget.cs" t="Include" />

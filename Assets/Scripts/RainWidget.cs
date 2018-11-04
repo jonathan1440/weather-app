@@ -8,18 +8,16 @@ using UnityStandardAssets.Utility;
 
 public class RainWidget : MonoBehaviour {
 
-	//Name of input data file, no extension
 	[Tooltip("Name of input data file, no extension.")]
 	public string inputfile;
 	
 	// List for holding data from CSV reader
 	private List<Dictionary<string, object>> pointList;
 	
-	// 0.01 inches of rain per 1 rain counter value
+	// default 0.01 inches of rain per 1 rain counter value
 	[Tooltip("__inches of rain per 1 rain counter unit")]
 	public float rainCounterUnits = 0.01f;
 
-	//time since last rain counter increase within which it will be considerded to be raining.
 	[Tooltip("time since last rain counter increase within which it will be considered to be raining")]
 	public int timeSinceRCIncrease = 60;
 
@@ -35,7 +33,7 @@ public class RainWidget : MonoBehaviour {
 	[Tooltip("Link to text ")]
 	public Text rainDepthMsg;
 	
-	//store most recent data
+	//store most recent data index
 	private int mostRecent;
 	//is it raining?
 	[Tooltip("Is it currently raining?")]
@@ -50,6 +48,7 @@ public class RainWidget : MonoBehaviour {
 	//store old curTime, to check if the mostRecent data needs to be updated
 	private string oldCurTime;
 
+	// public so it can be set by ClockWidget.cs
 	public int secondsPerUpdate;
 
 	private void updateRainConstants()
@@ -60,11 +59,7 @@ public class RainWidget : MonoBehaviour {
 		//convert rain depth to inches
 		rainDepth *= rainCounterUnits;
 		
-		//Round off rainDepth
-		//rainDepth = Mathf.RoundToInt(rainDepth * 100) / 100;
-		
 		//Convert timeSinceRCIncrease from seconds to data entries
-		//Since they are both floats, all decimals will be ignored
 		timeSinceRCIncrease = timeSinceRCIncrease / (secondsPerUpdate + 1);
 		
 		//check to see if it is raining
@@ -83,15 +78,11 @@ public class RainWidget : MonoBehaviour {
 	
 	private int getMostRecentData(string curTime)
 	{
-		//Debug.Log("gmrd started");
 		int indexMostRecent = 0;
 		
 		for(int i = 0; i < pointList.Count;)
 		{
-			//Debug.Log(pointList[i]["time"].ToString());
 			DateTime it = DateTime.ParseExact(pointList[i]["time"].ToString(), "H:mm:ss", System.Globalization.CultureInfo.CurrentCulture);
-			//DateTime it = DateTime.ParseExact("0:01:26", "H:mm:ss", System.Globalization.CultureInfo.CurrentCulture);
-			//Debug.Log("**"+it);
 			DateTime t = DateTime.ParseExact(curTime, "H:mm:ss", System.Globalization.CultureInfo.CurrentCulture);
 			int compared = DateTime.Compare(it, t);
 			
@@ -121,7 +112,6 @@ public class RainWidget : MonoBehaviour {
 	{
 		//Set pointlist to results of function Reader with argument inputfile
 		pointList = CSVReader.Read(inputfile);
-		//Debug.Log(pointList[1]["time"]);
 		//set default messages in case something below goes wrong
 		isRainingTextMsg.text = notRainingMsg;
 		
@@ -129,7 +119,6 @@ public class RainWidget : MonoBehaviour {
 		oldCurTime = curTime;
 		
 		//get most recent data
-		//Debug.Log("reached gmrd call");
 		mostRecent = getMostRecentData(curTime);
 		
 		updateRainConstants();

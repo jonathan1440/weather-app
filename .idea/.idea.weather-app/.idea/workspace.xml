@@ -2,155 +2,174 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b2fb33e-3de9-4f33-b70b-4ee807dd70a9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.weather-app/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.weather-app/.idea/contentModel.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.weather-app/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.weather-app/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/27-2-2018.csv" afterPath="$PROJECT_DIR$/Assets/Resources/27-2-2018.csv" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RainWidget.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/RainWidget.cs" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.weather-app/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.weather-app/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.weather-app/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.weather-app/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.weather-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.weather-app/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ClockWidget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ClockWidget.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RainWidget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RainWidget.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TempWidget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TempWidget.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WindWidget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WindWidget.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/ParticleSystems/Prefabs/FireMobile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/ParticleSystems/Prefabs/FireMobile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/ParticleSystems/Prefabs/WildFire.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/ParticleSystems/Prefabs/WildFire.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Models/AircraftFuselage.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Models/AircraftFuselage.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Models/AircraftWingsPropeller.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Vehicles/Aircraft/Models/AircraftWingsPropeller.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityPackageManager/manifest.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-740071800">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="1479" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="1479" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WindWidget.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/WindWidget.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-              <folding>
-                <marker date="1518469620421" expanded="false" signature="6:161" ph="..." />
-                <marker date="1518469620421" expanded="true" signature="203:5041" ph="{...}" />
-                <marker date="1518469620421" expanded="true" signature="1224:2727" ph="{...}" />
-                <marker date="1518469620421" expanded="true" signature="1517:1645" ph="/* Debug.Log(Convert.ToString(avgSpeed)); ... */" />
-                <marker date="1518469620421" expanded="true" signature="1685:1940" ph="{...}" />
-                <marker date="1518469620421" expanded="true" signature="1847:1936" ph="/* Debug.Log(Convert.ToSingle(pointList[i][&quot;wind speed&quot;])+1.2f); ... */" />
-                <marker date="1518469620421" expanded="true" signature="1943:2053" ph="/* Debug.Log(sumDirections); ... */" />
-                <marker date="1518469620421" expanded="true" signature="2101:2230" ph="/* Debug.Log(avgDir); ... */" />
-                <marker date="1518469620421" expanded="true" signature="2252:2356" ph="/* Debug.Log(avgDir); ... */" />
-                <marker date="1518469620421" expanded="true" signature="2399:2484" ph="/* Debug.Log(avgDir); ... */" />
-                <marker date="1518469620421" expanded="true" signature="2567:2640" ph="/* Debug.Log(avgDirection); ... */" />
-                <marker date="1518469620421" expanded="true" signature="2776:3332" ph="{...}" />
-                <marker date="1518469620421" expanded="true" signature="2843:3307" ph="{...}" />
-                <marker date="1518469620421" expanded="true" signature="3153:3194" ph="{...}" />
-                <marker date="1518469620421" expanded="true" signature="3216:3235" ph="{...}" />
-                <marker date="1518469620421" expanded="true" signature="3260:3303" ph="{...}" />
-                <marker date="1518469620421" expanded="true" signature="3382:4479" ph="{...}" />
-                <marker date="1518469620421" expanded="true" signature="4507:4786" ph="{...}" />
-                <marker date="1518469620421" expanded="true" signature="4840:5039" ph="{...}" />
-                <marker date="1518469620421" expanded="true" signature="4955:5036" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TempWidget.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/TempWidget.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="103" column="8" lean-forward="false" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
-              <folding>
-                <marker date="1518467001212" expanded="false" signature="6:180" ph="..." />
-                <marker date="1518467001212" expanded="true" signature="222:3441" ph="{...}" />
-                <marker date="1518467001212" expanded="true" signature="1348:1675" ph="{...}" />
-                <marker date="1518467001212" expanded="true" signature="1488:1510" ph="{...}" />
-                <marker date="1518467001212" expanded="true" signature="1574:1596" ph="{...}" />
-                <marker date="1518467001212" expanded="true" signature="1723:2279" ph="{...}" />
-                <marker date="1518467001212" expanded="true" signature="1790:2254" ph="{...}" />
-                <marker date="1518467001212" expanded="true" signature="2100:2141" ph="{...}" />
-                <marker date="1518467001212" expanded="true" signature="2163:2182" ph="{...}" />
-                <marker date="1518467001212" expanded="true" signature="2207:2250" ph="{...}" />
-                <marker date="1518467001212" expanded="true" signature="2329:3023" ph="{...}" />
-                <marker date="1518467001212" expanded="true" signature="2985:3020" ph="{...}" />
-                <marker date="1518467001212" expanded="true" signature="3051:3176" ph="{...}" />
-                <marker date="1518467001212" expanded="true" signature="3230:3439" ph="{...}" />
-                <marker date="1518467001212" expanded="true" signature="3355:3436" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClockWidget.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ClockWidget.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="106" column="51" lean-forward="false" selection-start-line="106" selection-start-column="51" selection-end-line="106" selection-end-column="51" />
-              <folding>
-                <marker date="1521573713068" expanded="false" signature="6:114" ph="..." />
-                <marker date="1521573713068" expanded="true" signature="156:4074" ph="{...}" />
-                <marker date="1521573713068" expanded="true" signature="1321:1417" ph="{...}" />
-                <marker date="1521573713068" expanded="true" signature="1512:1560" ph="{...}" />
-                <marker date="1521573713068" expanded="true" signature="1656:1706" ph="{...}" />
-                <marker date="1521573713068" expanded="true" signature="1818:1896" ph="{...}" />
-                <marker date="1521573713068" expanded="true" signature="1916:3024" ph="{...}" />
-                <marker date="1521573713068" expanded="true" signature="1922:1977" ph="/* Debug.Log(totalGameSeconds); ... */" />
-                <marker date="1521573713068" expanded="true" signature="2025:2080" ph="/* Debug.Log(totalGameSeconds); ... */" />
-                <marker date="1521573713068" expanded="true" signature="2353:2433" ph="/* Debug.Log(&quot;gs&quot;+gameSecond.ToString()); ... */" />
-                <marker date="1521573713068" expanded="true" signature="2583:2609" ph="{...}" />
-                <marker date="1521573713068" expanded="true" signature="2632:2658" ph="{...}" />
-                <marker date="1521573713068" expanded="true" signature="2729:2791" ph="/* Debug.Log(currentGameTime); ... */" />
-                <marker date="1521573713068" expanded="true" signature="2956:2982" ph="{...}" />
-                <marker date="1521573713068" expanded="true" signature="3047:3501" ph="{...}" />
-                <marker date="1521573713068" expanded="true" signature="3329:3498" ph="/* rw.GetComponent&lt;RainWidget&gt;().inputfile = inputfile; ... */" />
-                <marker date="1521573713068" expanded="true" signature="3549:3736" ph="{...}" />
-                <marker date="1521573713068" expanded="true" signature="3789:4072" ph="{...}" />
-                <marker date="1521573713068" expanded="true" signature="3804:4069" ph="{...}" />
-                <marker date="1521573713068" expanded="true" signature="3952:4065" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RainWidget.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/RainWidget.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="128" column="29" lean-forward="true" selection-start-line="128" selection-start-column="29" selection-end-line="128" selection-end-column="29" />
-              <folding>
-                <marker date="1521576642481" expanded="false" signature="6:177" ph="..." />
-                <marker date="1521576642481" expanded="true" signature="219:4505" ph="{...}" />
-                <marker date="1521576642481" expanded="true" signature="1678:2596" ph="{...}" />
-                <marker date="1521576642481" expanded="true" signature="1900:2103" ph="/* Round off rainDepth ... */" />
-                <marker date="1521576642481" expanded="true" signature="2179:2249" ph="/* check to see if it is raining ... */" />
-                <marker date="1521576642481" expanded="true" signature="2410:2593" ph="{...}" />
-                <marker date="1521576642481" expanded="true" signature="2645:3437" ph="{...}" />
-                <marker date="1521576642481" expanded="true" signature="2748:3407" ph="{...}" />
-                <marker date="1521576642481" expanded="true" signature="2936:3068" ph="/* DateTime it = DateTime.ParseExact(&quot;0:01:26&quot;, &quot;H:mm:ss&quot;, System.Globalization.CultureInfo.CurrentCulture); ... */" />
-                <marker date="1521576642481" expanded="true" signature="3243:3289" ph="{...}" />
-                <marker date="1521576642481" expanded="true" signature="3311:3330" ph="{...}" />
-                <marker date="1521576642481" expanded="true" signature="3355:3403" ph="{...}" />
-                <marker date="1521576642481" expanded="true" signature="3493:3935" ph="{...}" />
-                <marker date="1521576642481" expanded="true" signature="3612:3706" ph="/* Debug.Log(pointList[1][&quot;time&quot;]); ... */" />
-                <marker date="1521576642481" expanded="true" signature="3803:3861" ph="/* get most recent data ... */" />
-                <marker date="1521576642481" expanded="true" signature="3964:4242" ph="{...}" />
-                <marker date="1521576642481" expanded="true" signature="4027:4074" ph="{...}" />
-                <marker date="1521576642481" expanded="true" signature="4081:4131" ph="{...}" />
-                <marker date="1521576642481" expanded="true" signature="4304:4503" ph="{...}" />
-                <marker date="1521576642481" expanded="true" signature="4419:4500" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CSVReader.cs" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CSVReader.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding>
-                <marker date="1515180422000" expanded="false" signature="6:130" ph="..." />
-                <marker date="1515180422000" expanded="true" signature="132:355" ph="/* Taken from here: https://bravenewmethod.com/2014/09/13/lightweight-csv-reader-for-unity ... */" />
-                <marker date="1515180422000" expanded="true" signature="379:2897" ph="{...}" />
-                <marker date="1515180422000" expanded="true" signature="743:2895" ph="{...}" />
-                <marker date="1515180422000" expanded="true" signature="1520:2854" ph="{...}" />
-                <marker date="1515180422000" expanded="true" signature="2009:2770" ph="{...}" />
-                <marker date="1515180422000" expanded="true" signature="2510:2582" ph="{...}" />
-                <marker date="1515180422000" expanded="true" signature="2637:2709" ph="{...}" />
+                <marker date="1533921000093" expanded="false" signature="6:130" ph="..." />
+                <marker date="1533921000093" expanded="true" signature="132:355" ph="/* Taken from here: https://bravenewmethod.com/2014/09/13/lightweight-csv-reader-for-unity ... */" />
+                <marker date="1533921000093" expanded="true" signature="379:2897" ph="{...}" />
+                <marker date="1533921000093" expanded="true" signature="743:2895" ph="{...}" />
+                <marker date="1533921000093" expanded="true" signature="1520:2854" ph="{...}" />
+                <marker date="1533921000093" expanded="true" signature="2009:2770" ph="{...}" />
+                <marker date="1533921000093" expanded="true" signature="2510:2582" ph="{...}" />
+                <marker date="1533921000093" expanded="true" signature="2637:2709" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ClockWidget.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="161" column="16" selection-start-line="161" selection-start-column="16" selection-end-line="161" selection-end-column="16" />
+              <folding>
+                <marker date="1541350297645" expanded="true" signature="6:114" ph="..." />
+                <marker date="1541350297645" expanded="true" signature="116:235" ph="/* This is essentially a top level script because all the others rely on this one to provide the simulation time ... */" />
+                <marker date="1541350297645" expanded="true" signature="278:4047" ph="{...}" />
+                <marker date="1541350297645" expanded="true" signature="1457:1517" ph="{...}" />
+                <marker date="1541350297645" expanded="true" signature="1612:1660" ph="{...}" />
+                <marker date="1541350297645" expanded="true" signature="1756:1806" ph="{...}" />
+                <marker date="1541350297645" expanded="true" signature="1918:1996" ph="{...}" />
+                <marker date="1541350297645" expanded="true" signature="2016:2958" ph="{...}" />
+                <marker date="1541350297645" expanded="true" signature="2494:2520" ph="{...}" />
+                <marker date="1541350297645" expanded="true" signature="2542:2568" ph="{...}" />
+                <marker date="1541350297645" expanded="true" signature="2857:2883" ph="{...}" />
+                <marker date="1541350297645" expanded="true" signature="2981:3543" ph="{...}" />
+                <marker date="1541350297645" expanded="true" signature="2987:3116" ph="/* update current time for other widgets that need it ... */" />
+                <marker date="1541350297645" expanded="true" signature="3368:3540" ph="/* rw.GetComponent&lt;RainWidget&gt;().inputfile = inputfile; ... */" />
+                <marker date="1541350297645" expanded="true" signature="3591:3778" ph="{...}" />
+                <marker date="1541350297645" expanded="true" signature="3831:4045" ph="{...}" />
+                <marker date="1541350297645" expanded="true" signature="3846:4042" ph="{...}" />
+                <marker date="1541350297645" expanded="true" signature="3958:4038" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/WindWidget.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-667">
+              <caret line="96" column="29" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="29" />
+              <folding>
+                <marker date="1541347950279" expanded="true" signature="6:140" ph="..." />
+                <marker date="1541347950279" expanded="true" signature="182:4973" ph="{...}" />
+                <marker date="1541347950279" expanded="true" signature="1218:1300" ph="/* to store list of possible wind directions ... */" />
+                <marker date="1541347950279" expanded="true" signature="1423:2659" ph="{...}" />
+                <marker date="1541347950279" expanded="true" signature="1713:1925" ph="/* iterate through data list to sum up the &quot;wind direction&quot; and &quot;wind speed&quot; values ... */" />
+                <marker date="1541347950279" expanded="true" signature="1965:2127" ph="{...}" />
+                <marker date="1541347950279" expanded="true" signature="2708:3264" ph="{...}" />
+                <marker date="1541347950279" expanded="true" signature="2775:3239" ph="{...}" />
+                <marker date="1541347950279" expanded="true" signature="3085:3126" ph="{...}" />
+                <marker date="1541347950279" expanded="true" signature="3148:3167" ph="{...}" />
+                <marker date="1541347950279" expanded="true" signature="3192:3235" ph="{...}" />
+                <marker date="1541347950279" expanded="true" signature="3314:4412" ph="{...}" />
+                <marker date="1541347950279" expanded="true" signature="4440:4723" ph="{...}" />
+                <marker date="1541347950279" expanded="true" signature="4777:4971" ph="{...}" />
+                <marker date="1541347950279" expanded="true" signature="4887:4968" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/TempWidget.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="71" column="27" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
+              <folding>
+                <marker date="1541369971125" expanded="false" signature="6:180" ph="..." />
+                <marker date="1541369971125" expanded="true" signature="222:3437" ph="{...}" />
+                <marker date="1541369971125" expanded="true" signature="1349:1676" ph="{...}" />
+                <marker date="1541369971125" expanded="true" signature="1489:1511" ph="{...}" />
+                <marker date="1541369971125" expanded="true" signature="1575:1597" ph="{...}" />
+                <marker date="1541369971125" expanded="true" signature="1724:2280" ph="{...}" />
+                <marker date="1541369971125" expanded="true" signature="1791:2255" ph="{...}" />
+                <marker date="1541369971125" expanded="true" signature="2101:2142" ph="{...}" />
+                <marker date="1541369971125" expanded="true" signature="2164:2183" ph="{...}" />
+                <marker date="1541369971125" expanded="true" signature="2208:2251" ph="{...}" />
+                <marker date="1541369971125" expanded="true" signature="2330:3024" ph="{...}" />
+                <marker date="1541369971125" expanded="true" signature="2991:3021" ph="{...}" />
+                <marker date="1541369971125" expanded="true" signature="3052:3177" ph="{...}" />
+                <marker date="1541369971125" expanded="true" signature="3231:3435" ph="{...}" />
+                <marker date="1541369971125" expanded="true" signature="3351:3432" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/RainWidget.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="120" column="30" selection-start-line="120" selection-start-column="30" selection-end-line="120" selection-end-column="30" />
+              <folding>
+                <marker date="1541372394978" expanded="false" signature="6:177" ph="..." />
+                <marker date="1541372394978" expanded="true" signature="219:3998" ph="{...}" />
+                <marker date="1541372394978" expanded="true" signature="1605:2378" ph="{...}" />
+                <marker date="1541372394978" expanded="true" signature="1961:2031" ph="/* check to see if it is raining ... */" />
+                <marker date="1541372394978" expanded="true" signature="2192:2375" ph="{...}" />
+                <marker date="1541372394978" expanded="true" signature="2427:3003" ph="{...}" />
+                <marker date="1541372394978" expanded="true" signature="2499:2973" ph="{...}" />
+                <marker date="1541372394978" expanded="true" signature="2809:2855" ph="{...}" />
+                <marker date="1541372394978" expanded="true" signature="2877:2896" ph="{...}" />
+                <marker date="1541372394978" expanded="true" signature="2921:2969" ph="{...}" />
+                <marker date="1541372394978" expanded="true" signature="3059:3428" ph="{...}" />
+                <marker date="1541372394978" expanded="true" signature="3457:3735" ph="{...}" />
+                <marker date="1541372394978" expanded="true" signature="3520:3567" ph="{...}" />
+                <marker date="1541372394978" expanded="true" signature="3574:3624" ph="{...}" />
+                <marker date="1541372394978" expanded="true" signature="3797:3996" ph="{...}" />
+                <marker date="1541372394978" expanded="true" signature="3912:3993" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -168,14 +187,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WindWidget.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ClockWidget.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CSVReader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScatterPlotter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TempWidget.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScatterPlotter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ClockWidget.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RainWidget.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WindWidget.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CSVReader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -187,10 +206,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/IsItRaining.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WindWiget.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/21-1-2018.csv" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TempWidget.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/WindWidget.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CSVReader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WindWidget.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ClockWidget.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TempWidget.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RainWidget.cs" />
       </list>
     </option>
@@ -201,28 +220,17 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="560" />
-    <option name="y" value="17" />
-    <option name="width" value="949" />
-    <option name="height" value="1047" />
+    <option name="y" value="15" />
+    <option name="width" value="950" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -233,16 +241,21 @@
           </expand>
           <select />
         </subPane>
-        <option name="show-file-system" value="false" />
-        <option name="show-all-items" value="false" />
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_f02737a78695063deace08e96d5042710d3e32db/mingw32/libexec/git-core/git.exe" />
     <property name="do_not_show_unity_auto_save_notification" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_f02737a78695063deace08e96d5042710d3e32db/mingw32/libexec/git-core/git.exe" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -256,11 +269,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" pid="15904" />
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor" />
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor &amp; Play" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -294,11 +317,13 @@
       <workItem from="1518549645239" duration="5944000" />
       <workItem from="1518813241489" duration="2095000" />
       <workItem from="1519861309626" duration="747000" />
+      <workItem from="1541097427916" duration="5033000" />
+      <workItem from="1541341871529" duration="7040000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96131000" />
+    <option name="totallyTimeSpent" value="108204000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -310,811 +335,186 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.078125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39872748" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.078125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32873806" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993576" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07986577" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32765958" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993576" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32907802" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32976446" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Unity" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/CSVReader.cs</url>
-          <line>54</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/CSVReader.cs">
-            <startOffsets>
-              <startOffset value="2479" />
-            </startOffsets>
-            <endOffsets>
-              <endOffset value="2510" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ClockWidget.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="106" column="8" lean-forward="false" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
-          <folding>
-            <marker date="1521573713068" expanded="false" signature="6:114" ph="..." />
-            <marker date="1521573713068" expanded="true" signature="156:4074" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="1321:1417" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="1512:1560" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="1656:1706" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="1818:1896" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="1916:3024" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="1922:1977" ph="/* Debug.Log(totalGameSeconds); ... */" />
-            <marker date="1521573713068" expanded="true" signature="2025:2080" ph="/* Debug.Log(totalGameSeconds); ... */" />
-            <marker date="1521573713068" expanded="true" signature="2353:2433" ph="/* Debug.Log(&quot;gs&quot;+gameSecond.ToString()); ... */" />
-            <marker date="1521573713068" expanded="true" signature="2583:2609" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="2632:2658" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="2729:2791" ph="/* Debug.Log(currentGameTime); ... */" />
-            <marker date="1521573713068" expanded="true" signature="2956:2982" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="3047:3501" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="3329:3498" ph="/* rw.GetComponent&lt;RainWidget&gt;().inputfile = inputfile; ... */" />
-            <marker date="1521573713068" expanded="true" signature="3549:3736" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="3789:4072" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="3804:4069" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="3952:4065" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WindWidget.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="118" column="42" lean-forward="false" selection-start-line="118" selection-start-column="42" selection-end-line="118" selection-end-column="42" />
-          <folding>
-            <marker date="1518469620421" expanded="false" signature="6:161" ph="..." />
-            <marker date="1518469620421" expanded="true" signature="203:5041" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="1224:2727" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="1517:1645" ph="/* Debug.Log(Convert.ToString(avgSpeed)); ... */" />
-            <marker date="1518469620421" expanded="true" signature="1685:1940" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="1847:1936" ph="/* Debug.Log(Convert.ToSingle(pointList[i][&quot;wind speed&quot;])+1.2f); ... */" />
-            <marker date="1518469620421" expanded="true" signature="1943:2053" ph="/* Debug.Log(sumDirections); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2101:2230" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2252:2356" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2399:2484" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2567:2640" ph="/* Debug.Log(avgDirection); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2776:3332" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="2843:3307" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="3153:3194" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="3216:3235" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="3260:3303" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="3382:4479" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="4507:4786" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="4840:5039" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="4955:5036" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RainWidget.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="52" column="38" lean-forward="false" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
-          <folding>
-            <marker date="1521576642481" expanded="false" signature="6:177" ph="..." />
-            <marker date="1521576642481" expanded="true" signature="219:4505" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="1678:2596" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="1900:2103" ph="/* Round off rainDepth ... */" />
-            <marker date="1521576642481" expanded="true" signature="2179:2249" ph="/* check to see if it is raining ... */" />
-            <marker date="1521576642481" expanded="true" signature="2410:2593" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="2645:3437" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="2748:3407" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="2936:3068" ph="/* DateTime it = DateTime.ParseExact(&quot;0:01:26&quot;, &quot;H:mm:ss&quot;, System.Globalization.CultureInfo.CurrentCulture); ... */" />
-            <marker date="1521576642481" expanded="true" signature="3243:3289" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="3311:3330" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="3355:3403" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="3493:3935" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="3612:3706" ph="/* Debug.Log(pointList[1][&quot;time&quot;]); ... */" />
-            <marker date="1521576642481" expanded="true" signature="3803:3861" ph="/* get most recent data ... */" />
-            <marker date="1521576642481" expanded="true" signature="3964:4242" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="4027:4074" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="4081:4131" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="4304:4503" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="4419:4500" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TempWidget.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="69" column="49" lean-forward="false" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="49" />
-          <folding>
-            <marker date="1518467001212" expanded="false" signature="6:180" ph="..." />
-            <marker date="1518467001212" expanded="true" signature="222:3441" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="1348:1675" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="1488:1510" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="1574:1596" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="1723:2279" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="1790:2254" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="2100:2141" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="2163:2182" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="2207:2250" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="2329:3023" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="2985:3020" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="3051:3176" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="3230:3439" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="3355:3436" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ClockWidget.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="35" lean-forward="false" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
-          <folding>
-            <marker date="1521573713068" expanded="false" signature="6:114" ph="..." />
-            <marker date="1521573713068" expanded="true" signature="156:4074" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="1321:1417" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="1512:1560" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="1656:1706" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="1818:1896" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="1916:3024" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="1922:1977" ph="/* Debug.Log(totalGameSeconds); ... */" />
-            <marker date="1521573713068" expanded="true" signature="2025:2080" ph="/* Debug.Log(totalGameSeconds); ... */" />
-            <marker date="1521573713068" expanded="true" signature="2353:2433" ph="/* Debug.Log(&quot;gs&quot;+gameSecond.ToString()); ... */" />
-            <marker date="1521573713068" expanded="true" signature="2583:2609" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="2632:2658" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="2729:2791" ph="/* Debug.Log(currentGameTime); ... */" />
-            <marker date="1521573713068" expanded="true" signature="2956:2982" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="3047:3501" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="3329:3498" ph="/* rw.GetComponent&lt;RainWidget&gt;().inputfile = inputfile; ... */" />
-            <marker date="1521573713068" expanded="true" signature="3549:3736" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="3789:4072" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="3804:4069" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="3952:4065" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WindWidget.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="90" column="54" lean-forward="false" selection-start-line="90" selection-start-column="54" selection-end-line="90" selection-end-column="54" />
-          <folding>
-            <marker date="1518469620421" expanded="false" signature="6:161" ph="..." />
-            <marker date="1518469620421" expanded="true" signature="203:5041" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="1224:2727" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="1517:1645" ph="/* Debug.Log(Convert.ToString(avgSpeed)); ... */" />
-            <marker date="1518469620421" expanded="true" signature="1685:1940" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="1847:1936" ph="/* Debug.Log(Convert.ToSingle(pointList[i][&quot;wind speed&quot;])+1.2f); ... */" />
-            <marker date="1518469620421" expanded="true" signature="1943:2053" ph="/* Debug.Log(sumDirections); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2101:2230" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2252:2356" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2399:2484" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2567:2640" ph="/* Debug.Log(avgDirection); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2776:3332" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="2843:3307" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="3153:3194" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="3216:3235" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="3260:3303" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="3382:4479" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="4507:4786" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="4840:5039" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="4955:5036" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RainWidget.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1521576642481" expanded="false" signature="6:177" ph="..." />
-            <marker date="1521576642481" expanded="true" signature="219:4505" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="1678:2596" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="1900:2103" ph="/* Round off rainDepth ... */" />
-            <marker date="1521576642481" expanded="true" signature="2179:2249" ph="/* check to see if it is raining ... */" />
-            <marker date="1521576642481" expanded="true" signature="2410:2593" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="2645:3437" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="2748:3407" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="2936:3068" ph="/* DateTime it = DateTime.ParseExact(&quot;0:01:26&quot;, &quot;H:mm:ss&quot;, System.Globalization.CultureInfo.CurrentCulture); ... */" />
-            <marker date="1521576642481" expanded="true" signature="3243:3289" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="3311:3330" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="3355:3403" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="3493:3935" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="3612:3706" ph="/* Debug.Log(pointList[1][&quot;time&quot;]); ... */" />
-            <marker date="1521576642481" expanded="true" signature="3803:3861" ph="/* get most recent data ... */" />
-            <marker date="1521576642481" expanded="true" signature="3964:4242" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="4027:4074" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="4081:4131" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="4304:4503" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="4419:4500" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CSVReader.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="34" column="46" lean-forward="false" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TempWidget.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="125" column="8" lean-forward="true" selection-start-line="125" selection-start-column="8" selection-end-line="125" selection-end-column="8" />
-          <folding>
-            <marker date="1518467001212" expanded="false" signature="6:180" ph="..." />
-            <marker date="1518467001212" expanded="true" signature="222:3441" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="1348:1675" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="1488:1510" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="1574:1596" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="1723:2279" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="1790:2254" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="2100:2141" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="2163:2182" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="2207:2250" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="2329:3023" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="2985:3020" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="3051:3176" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="3230:3439" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="3355:3436" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WindWidget.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="90" column="54" lean-forward="false" selection-start-line="90" selection-start-column="54" selection-end-line="90" selection-end-column="54" />
-          <folding>
-            <marker date="1518469620421" expanded="false" signature="6:161" ph="..." />
-            <marker date="1518469620421" expanded="true" signature="203:5041" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="1224:2727" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="1517:1645" ph="/* Debug.Log(Convert.ToString(avgSpeed)); ... */" />
-            <marker date="1518469620421" expanded="true" signature="1685:1940" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="1847:1936" ph="/* Debug.Log(Convert.ToSingle(pointList[i][&quot;wind speed&quot;])+1.2f); ... */" />
-            <marker date="1518469620421" expanded="true" signature="1943:2053" ph="/* Debug.Log(sumDirections); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2101:2230" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2252:2356" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2399:2484" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2567:2640" ph="/* Debug.Log(avgDirection); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2776:3332" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="2843:3307" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="3153:3194" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="3216:3235" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="3260:3303" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="3382:4479" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="4507:4786" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="4840:5039" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="4955:5036" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RainWidget.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1521576642481" expanded="false" signature="6:177" ph="..." />
-            <marker date="1521576642481" expanded="true" signature="219:4505" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="1678:2596" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="1900:2103" ph="/* Round off rainDepth ... */" />
-            <marker date="1521576642481" expanded="true" signature="2179:2249" ph="/* check to see if it is raining ... */" />
-            <marker date="1521576642481" expanded="true" signature="2410:2593" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="2645:3437" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="2748:3407" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="2936:3068" ph="/* DateTime it = DateTime.ParseExact(&quot;0:01:26&quot;, &quot;H:mm:ss&quot;, System.Globalization.CultureInfo.CurrentCulture); ... */" />
-            <marker date="1521576642481" expanded="true" signature="3243:3289" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="3311:3330" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="3355:3403" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="3493:3935" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="3612:3706" ph="/* Debug.Log(pointList[1][&quot;time&quot;]); ... */" />
-            <marker date="1521576642481" expanded="true" signature="3803:3861" ph="/* get most recent data ... */" />
-            <marker date="1521576642481" expanded="true" signature="3964:4242" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="4027:4074" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="4081:4131" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="4304:4503" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="4419:4500" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CSVReader.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="34" column="46" lean-forward="false" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TempWidget.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="125" column="88" lean-forward="false" selection-start-line="125" selection-start-column="88" selection-end-line="125" selection-end-column="88" />
-          <folding>
-            <marker date="1518467001212" expanded="false" signature="6:180" ph="..." />
-            <marker date="1518467001212" expanded="true" signature="222:3441" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="1348:1675" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="1488:1510" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="1574:1596" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="1723:2279" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="1790:2254" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="2100:2141" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="2163:2182" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="2207:2250" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="2329:3023" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="2985:3020" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="3051:3176" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="3230:3439" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="3355:3436" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WindWidget.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1518469620421" expanded="false" signature="6:161" ph="..." />
-            <marker date="1518469620421" expanded="true" signature="203:5041" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="1224:2727" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="1517:1645" ph="/* Debug.Log(Convert.ToString(avgSpeed)); ... */" />
-            <marker date="1518469620421" expanded="true" signature="1685:1940" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="1847:1936" ph="/* Debug.Log(Convert.ToSingle(pointList[i][&quot;wind speed&quot;])+1.2f); ... */" />
-            <marker date="1518469620421" expanded="true" signature="1943:2053" ph="/* Debug.Log(sumDirections); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2101:2230" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2252:2356" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2399:2484" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2567:2640" ph="/* Debug.Log(avgDirection); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2776:3332" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="2843:3307" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="3153:3194" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="3216:3235" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="3260:3303" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="3382:4479" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="4507:4786" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="4840:5039" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="4955:5036" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TempWidget.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/21-1-2018.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WindWidget.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="70" column="49" lean-forward="false" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
-          <folding>
-            <marker date="1518469620421" expanded="false" signature="6:161" ph="..." />
-            <marker date="1518469620421" expanded="true" signature="203:5041" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="1224:2727" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="1517:1645" ph="/* Debug.Log(Convert.ToString(avgSpeed)); ... */" />
-            <marker date="1518469620421" expanded="true" signature="1685:1940" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="1847:1936" ph="/* Debug.Log(Convert.ToSingle(pointList[i][&quot;wind speed&quot;])+1.2f); ... */" />
-            <marker date="1518469620421" expanded="true" signature="1943:2053" ph="/* Debug.Log(sumDirections); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2101:2230" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2252:2356" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2399:2484" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2567:2640" ph="/* Debug.Log(avgDirection); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2776:3332" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="2843:3307" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="3153:3194" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="3216:3235" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="3260:3303" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="3382:4479" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="4507:4786" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="4840:5039" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="4955:5036" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CSVReader.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RainWidget.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WindWidget.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="57" column="35" lean-forward="false" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
-          <folding>
-            <marker date="1518469620421" expanded="false" signature="6:161" ph="..." />
-            <marker date="1518469620421" expanded="true" signature="203:5041" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="1224:2727" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="1517:1645" ph="/* Debug.Log(Convert.ToString(avgSpeed)); ... */" />
-            <marker date="1518469620421" expanded="true" signature="1685:1940" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="1847:1936" ph="/* Debug.Log(Convert.ToSingle(pointList[i][&quot;wind speed&quot;])+1.2f); ... */" />
-            <marker date="1518469620421" expanded="true" signature="1943:2053" ph="/* Debug.Log(sumDirections); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2101:2230" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2252:2356" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2399:2484" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2567:2640" ph="/* Debug.Log(avgDirection); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2776:3332" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="2843:3307" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="3153:3194" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="3216:3235" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="3260:3303" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="3382:4479" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="4507:4786" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="4840:5039" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="4955:5036" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CSVReader.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RainWidget.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WindWidget.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1518469620421" expanded="false" signature="6:161" ph="..." />
-            <marker date="1518469620421" expanded="true" signature="203:5041" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="1224:2727" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="1517:1645" ph="/* Debug.Log(Convert.ToString(avgSpeed)); ... */" />
-            <marker date="1518469620421" expanded="true" signature="1685:1940" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="1847:1936" ph="/* Debug.Log(Convert.ToSingle(pointList[i][&quot;wind speed&quot;])+1.2f); ... */" />
-            <marker date="1518469620421" expanded="true" signature="1943:2053" ph="/* Debug.Log(sumDirections); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2101:2230" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2252:2356" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2399:2484" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2567:2640" ph="/* Debug.Log(avgDirection); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2776:3332" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="2843:3307" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="3153:3194" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="3216:3235" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="3260:3303" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="3382:4479" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="4507:4786" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="4840:5039" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="4955:5036" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RainWidget.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="119" column="35" lean-forward="false" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RainWidget.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="119" column="35" lean-forward="false" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RainWidget.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="119" column="35" lean-forward="false" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScatterPlotter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RainWidget.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="8" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="119" column="35" lean-forward="false" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScatterPlotter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="119" column="35" lean-forward="true" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScatterPlotter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="82" column="9" lean-forward="false" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScatterPlotter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScatterPlotter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2235">
-          <caret line="151" column="24" lean-forward="false" selection-start-line="151" selection-start-column="24" selection-end-line="151" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/building-a-graph-content/Graph.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScatterPlotter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScatterPlotter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScatterPlotter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/building-a-graph-content/Graph.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/NewSurfaceShader.shader" />
     <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1725">
-          <caret line="119" column="35" lean-forward="false" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
+          <caret line="119" column="35" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScatterPlotter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Resources/21-1-2018.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RainWidget.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="120" column="30" selection-start-line="120" selection-start-column="30" selection-end-line="120" selection-end-column="30" />
+          <folding>
+            <marker date="1541372394978" expanded="false" signature="6:177" ph="..." />
+            <marker date="1541372394978" expanded="true" signature="219:3998" ph="{...}" />
+            <marker date="1541372394978" expanded="true" signature="1605:2378" ph="{...}" />
+            <marker date="1541372394978" expanded="true" signature="1961:2031" ph="/* check to see if it is raining ... */" />
+            <marker date="1541372394978" expanded="true" signature="2192:2375" ph="{...}" />
+            <marker date="1541372394978" expanded="true" signature="2427:3003" ph="{...}" />
+            <marker date="1541372394978" expanded="true" signature="2499:2973" ph="{...}" />
+            <marker date="1541372394978" expanded="true" signature="2809:2855" ph="{...}" />
+            <marker date="1541372394978" expanded="true" signature="2877:2896" ph="{...}" />
+            <marker date="1541372394978" expanded="true" signature="2921:2969" ph="{...}" />
+            <marker date="1541372394978" expanded="true" signature="3059:3428" ph="{...}" />
+            <marker date="1541372394978" expanded="true" signature="3457:3735" ph="{...}" />
+            <marker date="1541372394978" expanded="true" signature="3520:3567" ph="{...}" />
+            <marker date="1541372394978" expanded="true" signature="3574:3624" ph="{...}" />
+            <marker date="1541372394978" expanded="true" signature="3797:3996" ph="{...}" />
+            <marker date="1541372394978" expanded="true" signature="3912:3993" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/TempWidget.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="103" column="8" lean-forward="false" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
+        <state relative-caret-position="323">
+          <caret line="71" column="27" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
           <folding>
-            <marker date="1518467001212" expanded="false" signature="6:180" ph="..." />
-            <marker date="1518467001212" expanded="true" signature="222:3441" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="1348:1675" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="1488:1510" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="1574:1596" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="1723:2279" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="1790:2254" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="2100:2141" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="2163:2182" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="2207:2250" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="2329:3023" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="2985:3020" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="3051:3176" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="3230:3439" ph="{...}" />
-            <marker date="1518467001212" expanded="true" signature="3355:3436" ph="{...}" />
+            <marker date="1541369971125" expanded="false" signature="6:180" ph="..." />
+            <marker date="1541369971125" expanded="true" signature="222:3437" ph="{...}" />
+            <marker date="1541369971125" expanded="true" signature="1349:1676" ph="{...}" />
+            <marker date="1541369971125" expanded="true" signature="1489:1511" ph="{...}" />
+            <marker date="1541369971125" expanded="true" signature="1575:1597" ph="{...}" />
+            <marker date="1541369971125" expanded="true" signature="1724:2280" ph="{...}" />
+            <marker date="1541369971125" expanded="true" signature="1791:2255" ph="{...}" />
+            <marker date="1541369971125" expanded="true" signature="2101:2142" ph="{...}" />
+            <marker date="1541369971125" expanded="true" signature="2164:2183" ph="{...}" />
+            <marker date="1541369971125" expanded="true" signature="2208:2251" ph="{...}" />
+            <marker date="1541369971125" expanded="true" signature="2330:3024" ph="{...}" />
+            <marker date="1541369971125" expanded="true" signature="2991:3021" ph="{...}" />
+            <marker date="1541369971125" expanded="true" signature="3052:3177" ph="{...}" />
+            <marker date="1541369971125" expanded="true" signature="3231:3435" ph="{...}" />
+            <marker date="1541369971125" expanded="true" signature="3351:3432" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/WindWidget.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+        <state relative-caret-position="-667">
+          <caret line="96" column="29" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="29" />
           <folding>
-            <marker date="1518469620421" expanded="false" signature="6:161" ph="..." />
-            <marker date="1518469620421" expanded="true" signature="203:5041" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="1224:2727" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="1517:1645" ph="/* Debug.Log(Convert.ToString(avgSpeed)); ... */" />
-            <marker date="1518469620421" expanded="true" signature="1685:1940" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="1847:1936" ph="/* Debug.Log(Convert.ToSingle(pointList[i][&quot;wind speed&quot;])+1.2f); ... */" />
-            <marker date="1518469620421" expanded="true" signature="1943:2053" ph="/* Debug.Log(sumDirections); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2101:2230" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2252:2356" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2399:2484" ph="/* Debug.Log(avgDir); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2567:2640" ph="/* Debug.Log(avgDirection); ... */" />
-            <marker date="1518469620421" expanded="true" signature="2776:3332" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="2843:3307" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="3153:3194" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="3216:3235" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="3260:3303" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="3382:4479" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="4507:4786" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="4840:5039" ph="{...}" />
-            <marker date="1518469620421" expanded="true" signature="4955:5036" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CSVReader.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding>
-            <marker date="1515180422000" expanded="false" signature="6:130" ph="..." />
-            <marker date="1515180422000" expanded="true" signature="132:355" ph="/* Taken from here: https://bravenewmethod.com/2014/09/13/lightweight-csv-reader-for-unity ... */" />
-            <marker date="1515180422000" expanded="true" signature="379:2897" ph="{...}" />
-            <marker date="1515180422000" expanded="true" signature="743:2895" ph="{...}" />
-            <marker date="1515180422000" expanded="true" signature="1520:2854" ph="{...}" />
-            <marker date="1515180422000" expanded="true" signature="2009:2770" ph="{...}" />
-            <marker date="1515180422000" expanded="true" signature="2510:2582" ph="{...}" />
-            <marker date="1515180422000" expanded="true" signature="2637:2709" ph="{...}" />
+            <marker date="1541347950279" expanded="true" signature="6:140" ph="..." />
+            <marker date="1541347950279" expanded="true" signature="182:4973" ph="{...}" />
+            <marker date="1541347950279" expanded="true" signature="1218:1300" ph="/* to store list of possible wind directions ... */" />
+            <marker date="1541347950279" expanded="true" signature="1423:2659" ph="{...}" />
+            <marker date="1541347950279" expanded="true" signature="1713:1925" ph="/* iterate through data list to sum up the &quot;wind direction&quot; and &quot;wind speed&quot; values ... */" />
+            <marker date="1541347950279" expanded="true" signature="1965:2127" ph="{...}" />
+            <marker date="1541347950279" expanded="true" signature="2708:3264" ph="{...}" />
+            <marker date="1541347950279" expanded="true" signature="2775:3239" ph="{...}" />
+            <marker date="1541347950279" expanded="true" signature="3085:3126" ph="{...}" />
+            <marker date="1541347950279" expanded="true" signature="3148:3167" ph="{...}" />
+            <marker date="1541347950279" expanded="true" signature="3192:3235" ph="{...}" />
+            <marker date="1541347950279" expanded="true" signature="3314:4412" ph="{...}" />
+            <marker date="1541347950279" expanded="true" signature="4440:4723" ph="{...}" />
+            <marker date="1541347950279" expanded="true" signature="4777:4971" ph="{...}" />
+            <marker date="1541347950279" expanded="true" signature="4887:4968" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ClockWidget.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="106" column="51" lean-forward="false" selection-start-line="106" selection-start-column="51" selection-end-line="106" selection-end-column="51" />
+        <state relative-caret-position="493">
+          <caret line="161" column="16" selection-start-line="161" selection-start-column="16" selection-end-line="161" selection-end-column="16" />
           <folding>
-            <marker date="1521573713068" expanded="false" signature="6:114" ph="..." />
-            <marker date="1521573713068" expanded="true" signature="156:4074" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="1321:1417" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="1512:1560" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="1656:1706" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="1818:1896" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="1916:3024" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="1922:1977" ph="/* Debug.Log(totalGameSeconds); ... */" />
-            <marker date="1521573713068" expanded="true" signature="2025:2080" ph="/* Debug.Log(totalGameSeconds); ... */" />
-            <marker date="1521573713068" expanded="true" signature="2353:2433" ph="/* Debug.Log(&quot;gs&quot;+gameSecond.ToString()); ... */" />
-            <marker date="1521573713068" expanded="true" signature="2583:2609" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="2632:2658" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="2729:2791" ph="/* Debug.Log(currentGameTime); ... */" />
-            <marker date="1521573713068" expanded="true" signature="2956:2982" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="3047:3501" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="3329:3498" ph="/* rw.GetComponent&lt;RainWidget&gt;().inputfile = inputfile; ... */" />
-            <marker date="1521573713068" expanded="true" signature="3549:3736" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="3789:4072" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="3804:4069" ph="{...}" />
-            <marker date="1521573713068" expanded="true" signature="3952:4065" ph="{...}" />
+            <marker date="1541350297645" expanded="true" signature="6:114" ph="..." />
+            <marker date="1541350297645" expanded="true" signature="116:235" ph="/* This is essentially a top level script because all the others rely on this one to provide the simulation time ... */" />
+            <marker date="1541350297645" expanded="true" signature="278:4047" ph="{...}" />
+            <marker date="1541350297645" expanded="true" signature="1457:1517" ph="{...}" />
+            <marker date="1541350297645" expanded="true" signature="1612:1660" ph="{...}" />
+            <marker date="1541350297645" expanded="true" signature="1756:1806" ph="{...}" />
+            <marker date="1541350297645" expanded="true" signature="1918:1996" ph="{...}" />
+            <marker date="1541350297645" expanded="true" signature="2016:2958" ph="{...}" />
+            <marker date="1541350297645" expanded="true" signature="2494:2520" ph="{...}" />
+            <marker date="1541350297645" expanded="true" signature="2542:2568" ph="{...}" />
+            <marker date="1541350297645" expanded="true" signature="2857:2883" ph="{...}" />
+            <marker date="1541350297645" expanded="true" signature="2981:3543" ph="{...}" />
+            <marker date="1541350297645" expanded="true" signature="2987:3116" ph="/* update current time for other widgets that need it ... */" />
+            <marker date="1541350297645" expanded="true" signature="3368:3540" ph="/* rw.GetComponent&lt;RainWidget&gt;().inputfile = inputfile; ... */" />
+            <marker date="1541350297645" expanded="true" signature="3591:3778" ph="{...}" />
+            <marker date="1541350297645" expanded="true" signature="3831:4045" ph="{...}" />
+            <marker date="1541350297645" expanded="true" signature="3846:4042" ph="{...}" />
+            <marker date="1541350297645" expanded="true" signature="3958:4038" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RainWidget.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CSVReader.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="128" column="29" lean-forward="true" selection-start-line="128" selection-start-column="29" selection-end-line="128" selection-end-column="29" />
+        <state relative-caret-position="136">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding>
-            <marker date="1521576642481" expanded="false" signature="6:177" ph="..." />
-            <marker date="1521576642481" expanded="true" signature="219:4505" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="1678:2596" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="1900:2103" ph="/* Round off rainDepth ... */" />
-            <marker date="1521576642481" expanded="true" signature="2179:2249" ph="/* check to see if it is raining ... */" />
-            <marker date="1521576642481" expanded="true" signature="2410:2593" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="2645:3437" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="2748:3407" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="2936:3068" ph="/* DateTime it = DateTime.ParseExact(&quot;0:01:26&quot;, &quot;H:mm:ss&quot;, System.Globalization.CultureInfo.CurrentCulture); ... */" />
-            <marker date="1521576642481" expanded="true" signature="3243:3289" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="3311:3330" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="3355:3403" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="3493:3935" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="3612:3706" ph="/* Debug.Log(pointList[1][&quot;time&quot;]); ... */" />
-            <marker date="1521576642481" expanded="true" signature="3803:3861" ph="/* get most recent data ... */" />
-            <marker date="1521576642481" expanded="true" signature="3964:4242" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="4027:4074" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="4081:4131" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="4304:4503" ph="{...}" />
-            <marker date="1521576642481" expanded="true" signature="4419:4500" ph="{...}" />
+            <marker date="1533921000093" expanded="false" signature="6:130" ph="..." />
+            <marker date="1533921000093" expanded="true" signature="132:355" ph="/* Taken from here: https://bravenewmethod.com/2014/09/13/lightweight-csv-reader-for-unity ... */" />
+            <marker date="1533921000093" expanded="true" signature="379:2897" ph="{...}" />
+            <marker date="1533921000093" expanded="true" signature="743:2895" ph="{...}" />
+            <marker date="1533921000093" expanded="true" signature="1520:2854" ph="{...}" />
+            <marker date="1533921000093" expanded="true" signature="2009:2770" ph="{...}" />
+            <marker date="1533921000093" expanded="true" signature="2510:2582" ph="{...}" />
+            <marker date="1533921000093" expanded="true" signature="2637:2709" ph="{...}" />
           </folding>
         </state>
       </provider>

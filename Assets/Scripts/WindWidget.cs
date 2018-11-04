@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Globalization;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class WindWidget : MonoBehaviour {
@@ -14,74 +13,69 @@ public class WindWidget : MonoBehaviour {
 	// List for holding data from CSV reader
 	private List<Dictionary<string, object>> pointList;
 	
+	// allows this script to change the wind speed actively being displayed
 	[Tooltip("text component for wind speed message")]
 	public Text windSpeedMsg;
 	[Tooltip("text component for avg wind velocity message")]
 	public Text avgWindVelocityMsg;
 
+	// presentation fail-safe
 	[Tooltip("default wind speed message")]
 	public string defaultWindSpeedMsg;
 	[Tooltip("default avg velocity message")]
 	public string defaultAvgVelocityMsg;
 	
-	//data storage
+	// data storage
 	public float windSpeed;
 	public string windDirection;
-	public string avgDirection;
+	public string avgWindDirection;
 	public float avgSpeed = 0;
 	
-	//store most recent data
+	// pointList index of most recent data used by the simulation
 	public int mostRecent;
-	//time to match with times in data
+	// current simulation time, compared with data timestamps in data file
 	public string curTime;
-	//store old curTime, to check if the mostRecent data needs to be updated
+	// store old curTime, to check if the mostRecent data needs to be updated
 	private string oldCurTime;
 	
-	//to store list of possible windspeeds
+	// to store list of possible wind directions
+	// <text direction, direction angle>
 	private Dictionary<string, float> cardinalDirections = new Dictionary<string, float>();
 
-	private void updateWindConstants()
+	
+	private void updateWindData()
 	{
-		//get wind direction
+		// get wind direction
 		windDirection = pointList[mostRecent]["wind direction"].ToString();
 		
-		//get wind speed
+		// get wind speed
 		windSpeed = Convert.ToSingle(pointList[mostRecent]["wind speed"]);
 		
-		//initialize variables to store stuff to be summed throughout the data
+		// sum of wind directions 
 		float sumDirections = 0;
-		//Debug.Log(Convert.ToString(avgSpeed));
+		// reset avgSpeed
+		avgSpeed = 0;
 		
-		//iterate through data list to sum up the "wind direction" and "wind speed" values
+		// iterate through data list to sum up the "wind direction" and "wind speed" values
+		// doing this for loop every time allow me to not have to make a special case for when the simulation clock
+		//  makes a jump
 		for (int i = 0; i < mostRecent; i ++)
 		{
 			sumDirections += cardinalDirections[pointList[i]["wind direction"].ToString()];
 			avgSpeed = avgSpeed + Convert.ToSingle(pointList[i]["wind speed"]);
-			//Debug.Log(Convert.ToSingle(pointList[i]["wind speed"])+1.2f);
-			//Debug.Log(avgSpeed);
 		}
-		//Debug.Log(sumDirections);
-		//Debug.Log(avgSpeed);
 
-		//complete the averaging of the wind direction vectors
+		//complete the averaging of the wind directions
 		float avgDir = sumDirections / mostRecent;
-		//Debug.Log(avgDir);
-		
 		//to round it to the nearest cardinal direction, we first have to enable it to round to the nearest int
 		avgDir /= 22.5f;
-		//Debug.Log(avgDir);
-		
-		//round it to nearest integer, which is how the cardinal directions are stored
+		//round it to nearest integer
 		avgDir = Mathf.Round(avgDir) * 22.5f;
-		//Debug.Log(avgDir);
-		
-		//convert the vector to the corresponding direction string 
-		avgDirection = cardinalDirections.FirstOrDefault(x => x.Value == avgDir).Key;
-		//Debug.Log(avgDirection);
+		//get the corresponding cardinal direction 
+		avgWindDirection = cardinalDirections.FirstOrDefault(x => x.Value == avgDir).Key;
 		
 		//complete the averaging of the avg speed
 		avgSpeed = Mathf.Round((avgSpeed*10)/(mostRecent+1))/10;
-		//Debug.Log(avgSpeed);
 	}
 	
 	private int getMostRecentData(string curTime)
@@ -145,10 +139,10 @@ public class WindWidget : MonoBehaviour {
 		//store current time
 		oldCurTime = curTime;
 		
-		//get most recent data
+		//get most recent data index
 		mostRecent = getMostRecentData(curTime);
 		
-		updateWindConstants();
+		updateWindData();
 	}
 
 	private void updateText()
@@ -157,13 +151,13 @@ public class WindWidget : MonoBehaviour {
 		windSpeedMsg.text = windDirection+"\n"+windSpeed.ToString() + " mph";
 		
 		//set avg velocity message
-		avgWindVelocityMsg.text = "avg. windspeed\nof " + avgSpeed + " mph from\nthe " + avgDirection;
+		avgWindVelocityMsg.text = "avg. windspeed\nof " + avgSpeed + " mph from\nthe " + avgWindDirection;
 	}
 	
 	// Update is called once per frame
 	void Update ()
 	{
-		updateWindConstants();
+		updateWindData();
 		
 		updateText();
 
