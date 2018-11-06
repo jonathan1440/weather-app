@@ -7,6 +7,8 @@ The goal is to create a Unity web app showing weather data from my house for my 
 
 Everything in this project is my own creation except for the standard asset package from Unity and the CSVReader.cs file that I got from https://bravenewmethod.com/2014/09/13/lightweight-csv-reader-for-unity/
 
+All scripts are stored in `/Assets/Scripts`
+
 This repoistory explains how I collected the weather data I use in this simulation: https://github.com/jonathan1440/Get-Weather-Data
 
 **Using:**
@@ -39,7 +41,7 @@ It displays:
 - current time (in simulation)
 - current date (in simulation)
 
-**V2.0, WIP:**
+**V2.0, WNIP:**
 I used the following tutorial to start me off on creating a scatterplot:
 https://sites.psu.edu/bdssblog/2017/04/06/basic-data-visualization-in-unity-scatterplot-creation/
 
